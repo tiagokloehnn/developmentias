@@ -40,28 +40,52 @@ def main(page: ft.Page):
             ]
         elif empresa == "LOJA 02 - INDAIAL":
             filtro_setor_empresa1.options = [
-                ft.dropdown.Option('LOJA 2 - PRINCIPAL LOJA'),
-                ft.dropdown.Option("LOJA 01 - ESTOQUE TINTAS"),
+                ft.dropdown.Option('LOJA 02 - PRINCIPAL LOJA'),
+                ft.dropdown.Option("LOJA 02 - ESTOQUE TINTAS"),
             ]
-        elif empresa == "DIESEL":
+        elif empresa == "LOJA 03 - DIESEL":
             filtro_setor_empresa1.options = [
                 ft.dropdown.Option("LOJA 03 - CD"),
-                ft.dropdown.Option('LOJA 1 - PRINCIPAL LOJA'),
+                ft.dropdown.Option('LOJA 03 - PRINCIPAL LOJA'),
             ]
         elif empresa == "LOJA 04 - BLUMENAU":
             filtro_setor_empresa1.options = [
-                ft.dropdown.Option('LOJA 1 - PRINCIPAL LOJA'),
-                ft.dropdown.Option("LOJA 01 - ESTOQUE TINTAS"),
+                ft.dropdown.Option('LOJA 04 - PRINCIPAL LOJA'),
+                ft.dropdown.Option("LOJA 04 - ESTOQUE TINTAS"),
             ]
 
         filtro_setor_empresa1.update()  # Atualiza o dropdown na página
+
+    # Criando label para aparecer o texto para selecionar os dias
+    label_dias = ft.Text('Seleciona quantos dias para traz deseja filtrar o giro: ')
+
+    # Campo de entrada para dias
+    number_input = ft.TextField(
+        label='Selecione os dias:',
+        value='',  # Valor inicial como string
+        keyboard_type=ft.KeyboardType.NUMBER,
+        on_change=lambda e: validate_input(e.control)  # Valida a entrada
+    )
+
+    # Função para validar a entrada no campo de texto
+    def validate_input(control):
+        # Tenta converter o valor para inteiro
+        try:
+            if control.value != "":
+                int(control.value)  # Isso gerará um ValueError se não for um número
+            control.error_text = ""  # Limpa a mensagem de erro se a conversão for bem-sucedida
+        except ValueError:
+            control.error_text = "Por favor, insira um número inteiro."  # Mensagem de erro
 
     # Adicionando os campos à página
     page.add(
         label_empresa,
         filtro_empresa,
         label_setor,
-        filtro_setor_empresa1
+        filtro_setor_empresa1,
+        label_dias,
+        number_input,
     )
 
+# Executa a aplicação
 ft.app(target=main)
