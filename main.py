@@ -77,6 +77,28 @@ def main(page: ft.Page):
         except ValueError:
             control.error_text = "Por favor, insira um número inteiro."  # Mensagem de erro
 
+    
+    
+
+    #-----------------------------------------------------------------------------------------------------------
+
+
+    
+    valor_banco = ft.TextField(
+        label="Valor do Banco de Dados", 
+        value=""
+    )
+
+    # Função para simular a resposta de um banco de dados e atualizar o campo
+    def carregar_dados(e):
+        # Aqui você pode substituir pela chamada ao seu banco de dados
+        dados_do_banco = "Resposta do Banco"
+        valor_banco.value = dados_do_banco
+        valor_banco.update()  # Atualiza a interface
+    
+    # Botão para carregar os dados do banco de dados
+    botao_carregar = ft.ElevatedButton("Carregar Dados", on_click=carregar_dados)
+
     # Adicionando os campos à página
     page.add(
         label_empresa,
@@ -85,6 +107,8 @@ def main(page: ft.Page):
         filtro_setor_empresa1,
         label_dias,
         number_input,
+        valor_banco,
+        botao_carregar
     )
 
 # Executa a aplicação
