@@ -749,6 +749,7 @@
         {"id": 97, "codigo_produto": 100096, "marca": "Marca J", "giro_30": 12, "giro_60": 39, "giro_90": 16, "giro_medio": 22.33, "codigo_local": "02010199097", "codigo_local_2": "02010199097", "desc_local": "02R01A097"},
         {"id": 98, "codigo_produto": 100097, "marca": "Marca J", "giro_30": 14, "giro_60": 16, "giro_90": 1, "giro_medio": 10.33, "codigo_local": "02010199098", "codigo_local_2": "02010199098", "desc_local": "02R01A098"},
         {"id": 99, "codigo_produto": 100098, "marca": "Marca J", "giro_30": 23, "giro_60": 38, "giro_90": 48, "giro_medio": 36.33, "codigo_local": "02010199099", "codigo_local_2": "02010199099", "desc_local": "02R01A099"},
-        {"id": 100,"codigo_produto": 100099, "marca": "Marca J", "giro_30": 26, "giro_60": 2, "giro_90": 50, "giro_medio": 26.0, "codigo_local": "02010199100", "codigo_local_2": "02010199100", "desc_local": "02R01A100"}
+        {"id": 100,"codigo_produto": 100099, "marca": "Marca J", "giro_30": 26, "giro_60": 2, "giro_90": 50, "giro_medio": 26.0, "codigo_local": "02010199100", "codigo_local_2": "02010199100", "desc_local": "02R01A100"},
+        {"id": 101,"codigo_produto": 100100, "marca": "Marca J", "giro_30": 35, "giro_60": 42, "giro_90": 50, "giro_medio": 43.0, "codigo_local": "02010199101", "codigo_local_2": "02010199101", "desc_local": "02R01A101"}
     ]
 }
