@@ -1,5 +1,5 @@
 {
-"Produtos": [
+"Produtos dbo": [
     {
         "ID":1,
         "codigo_produto":100000,
@@ -707,18 +707,6 @@
         "codigo_local":"02010199059",
         "codigo_local_2":"02010199059",
         "desc_local":"02R01A059"
-    },
-    {
-        "ID":60,
-        "codigo_produto":100059,
-        "Marca":"Marca F",
-        "giro_30":44,
-        "giro_60":10,
-        "giro_90":14,
-        "giro_medio":22.67,
-        "codigo_local":"02010199060",
-        "codigo_local_2":"02010199060",
-        "desc_local":"02R01A060"
     },
     
         {"id": 60, "codigo_produto": 100059, "marca": "Marca F", "giro_30": 44, "giro_60": 10, "giro_90": 14, "giro_medio": 22.67, "codigo_local": "02010199060", "codigo_local_2": "02010199060", "desc_local": "02R01A060"},
