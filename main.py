@@ -2,7 +2,11 @@ import flet as ft
 
 def main(page: ft.Page):
     page.title = "Pesquisa de Giro"
-
+    
+    # Ajuste do estilo da página com fundo azul e opacidade
+    page.bgcolor = ft.colors.with_opacity(0.5, ft.colors.BLUE)  # Define o fundo azul com opacidade
+    page.vertical_alignment = ft.MainAxisAlignment.CENTER  # Centraliza os itens verticalmente
+    
     # Criando campo para pesquisar por empresa
     label_empresa = ft.Text("Selecione qual empresa que deseja pesquisar:")
     filtro_empresa = ft.Dropdown(
@@ -12,14 +16,12 @@ def main(page: ft.Page):
             ft.dropdown.Option("LOJA 03 - DIESEL"),
             ft.dropdown.Option("LOJA 04 - BLUMENAU"),
         ],
-        width=200,
         on_change=lambda e: update_setor(page, e.control.value)  # Atualiza o setor ao mudar a empresa
     )
 
     # Campo para setor, inicialmente vazio
     filtro_setor_empresa1 = ft.Dropdown(
         options=[],
-        width=500
     )
 
     # Criando label para aparecer o texto
@@ -27,7 +29,6 @@ def main(page: ft.Page):
 
     # Função para atualizar as opções do setor
     def update_setor(page, empresa):
-        # Limpa as opções antes de adicionar novas
         filtro_setor_empresa1.options = []  
         
         if empresa == "LOJA 01 - MATRIZ":
@@ -54,7 +55,7 @@ def main(page: ft.Page):
                 ft.dropdown.Option("LOJA 04 - ESTOQUE TINTAS"),
             ]
 
-        filtro_setor_empresa1.update()  # Atualiza o dropdown na página
+        filtro_setor_empresa1.update()
 
     # Criando label para aparecer o texto para selecionar os dias
     label_dias = ft.Text('Seleciona quantos dias para traz deseja filtrar o giro: ')
@@ -62,54 +63,89 @@ def main(page: ft.Page):
     # Campo de entrada para dias
     number_input = ft.TextField(
         label='Selecione os dias:',
-        value='',  # Valor inicial como string
+        value='',
         keyboard_type=ft.KeyboardType.NUMBER,
-        on_change=lambda e: validate_input(e.control)  # Valida a entrada
+        on_change=lambda e: validate_input(e.control)
     )
 
     # Função para validar a entrada no campo de texto
     def validate_input(control):
-        # Tenta converter o valor para inteiro
         try:
             if control.value != "":
-                int(control.value)  # Isso gerará um ValueError se não for um número
-            control.error_text = ""  # Limpa a mensagem de erro se a conversão for bem-sucedida
+                int(control.value)
+            control.error_text = ""
         except ValueError:
-            control.error_text = "Por favor, insira um número inteiro."  # Mensagem de erro
+            control.error_text = "Por favor, insira um número inteiro."
 
-    
-    
-
-    #-----------------------------------------------------------------------------------------------------------
-
-
-    
     valor_banco = ft.TextField(
         label="Valor do Banco de Dados", 
-        value=""
+        value="",
     )
 
     # Função para simular a resposta de um banco de dados e atualizar o campo
     def carregar_dados(e):
-        # Aqui você pode substituir pela chamada ao seu banco de dados
         dados_do_banco = "Resposta do Banco"
         valor_banco.value = dados_do_banco
-        valor_banco.update()  # Atualiza a interface
-    
+        valor_banco.update()
+
     # Botão para carregar os dados do banco de dados
     botao_carregar = ft.ElevatedButton("Carregar Dados", on_click=carregar_dados)
 
-    # Adicionando os campos à página
-    page.add(
-        label_empresa,
-        filtro_empresa,
-        label_setor,
-        filtro_setor_empresa1,
-        label_dias,
-        number_input,
-        valor_banco,
-        botao_carregar
+    # Criando containers para cada bloco de seleção e resposta
+    container_empresa = ft.Container(
+        content=ft.Column(
+            [label_empresa, filtro_empresa],
+            spacing=10  # Espaçamento interno
+        ),
+        margin=ft.margin.only(bottom=40),  # Margem inferior
+        padding=10  # Adiciona espaçamento ao redor
     )
+
+    container_setor = ft.Container(
+        content=ft.Column(
+            [label_setor, filtro_setor_empresa1],
+            spacing=10
+        ),
+        margin=ft.margin.only(bottom=40),
+        padding=10
+    )
+
+    container_dias = ft.Container(
+        content=ft.Column(
+            [label_dias, number_input],
+            spacing=10
+        ),
+        margin=ft.margin.only(bottom=40),
+        padding=10
+    )
+
+    container_resposta = ft.Container(
+        content=ft.Column(
+            [valor_banco, botao_carregar],
+            spacing=10
+        ),
+        margin=ft.margin.only(bottom=40),
+        padding=10
+    )
+
+    # Criando um contêiner centralizado com os componentes
+    container_principal = ft.Container(
+        content=ft.Column(
+            [
+                container_empresa,
+                container_setor,
+                container_dias,
+                container_resposta
+            ],
+            alignment=ft.MainAxisAlignment.CENTER,  # Centraliza verticalmente os itens
+            horizontal_alignment=ft.CrossAxisAlignment.CENTER,  # Centraliza horizontalmente
+            spacing=20  # Define o espaçamento entre os itens (20 pixels neste exemplo)
+        ),
+        alignment=ft.alignment.center,  # Centraliza o contêiner na página
+    )
+
+    # Adicionando o contêiner principal à página
+    page.add(container_principal)
 
 # Executa a aplicação
 ft.app(target=main)
