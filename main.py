@@ -122,10 +122,12 @@ def main(page: ft.Page):
     container_resposta = ft.Container(
         content=ft.Column(
             [valor_banco, botao_carregar],
-            spacing=10
+            spacing=10,
+            alignment=ft.MainAxisAlignment.CENTER  # Centraliza o botão dentro do bloco de resposta
         ),
         margin=ft.margin.only(bottom=40),
-        padding=10
+        padding=10,
+        alignment=ft.alignment.center  # Centraliza o contêiner no espaço horizontal
     )
 
     # Criando um contêiner centralizado com os componentes
