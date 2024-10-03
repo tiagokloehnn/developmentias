@@ -1,4 +1,5 @@
 import flet as ft
+import json
 
 def main(page: ft.Page):
     page.title = "Pesquisa de Giro"
@@ -82,11 +83,23 @@ def main(page: ft.Page):
         value="",
     )
 
-    # Função para simular a resposta de um banco de dados e atualizar o campo
+    # Função para carregar os dados do arquivo JSON
     def carregar_dados(e):
-        dados_do_banco = "Resposta do Banco"
-        valor_banco.value = dados_do_banco
-        valor_banco.update()
+        try:
+            # Abrindo e lendo o arquivo JSON
+            with open('db.json', 'r') as f:
+                dados_do_banco = json.load(f)  # Carrega os dados do JSON
+
+            # Convertendo os dados para string formatada
+            dados_formatados = json.dumps(dados_do_banco, indent=4, ensure_ascii=False)
+
+            # Atualiza o campo de texto com os dados do banco de dados
+            valor_banco.value = dados_formatados
+            valor_banco.update()
+
+        except Exception as ex:
+            valor_banco.value = f"Erro ao carregar dados: {str(ex)}"
+            valor_banco.update()
 
     # Botão para carregar os dados do banco de dados
     botao_carregar = ft.ElevatedButton("Carregar Dados", on_click=carregar_dados)
