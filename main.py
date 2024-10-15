@@ -36,8 +36,8 @@ def main(page: ft.Page):
             filtro_setor_empresa1.options = [
                 ft.dropdown.Option("Setor 05 - CD"),
                 ft.dropdown.Option("Setor 11 - CD TINTAS"),
-                ft.dropdown.Option('LOJA 1 - PRINCIPAL LOJA'),
-                ft.dropdown.Option('LOJA 01 - ESTOQUE 03'),
+                ft.dropdown.Option("LOJA 01 - PRINCIPAL LOJA"),
+                ft.dropdown.Option("LOJA 01 - ESTOQUE 03"),
                 ft.dropdown.Option("LOJA 01 - ESTOQUE TINTAS"),
             ]
         elif empresa == "LOJA 02 - INDAIAL":
