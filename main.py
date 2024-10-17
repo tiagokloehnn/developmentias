@@ -34,26 +34,26 @@ def main(page: ft.Page):
         
         if empresa == "LOJA 01 - MATRIZ":
             filtro_setor_empresa1.options = [
-                ft.dropdown.Option("Setor 05 - CD"),
-                ft.dropdown.Option("Setor 11 - CD TINTAS"),
-                ft.dropdown.Option('LOJA 1 - PRINCIPAL LOJA'),
-                ft.dropdown.Option('LOJA 01 - ESTOQUE 03'),
-                ft.dropdown.Option("LOJA 01 - ESTOQUE TINTAS"),
+                ft.dropdown.Option("Setor 05 - CD LOJA 01"),
+                ft.dropdown.Option("Setor 11 - CD TINTAS LOJA 01"),
+                ft.dropdown.Option('Setor 01 - PRINCIPAL LOJA 01'),
+                ft.dropdown.Option('Setor 03 - ESTOQUE LOJA 01'),
+                ft.dropdown.Option("Setor 04 - ESTOQUE TINTAS LOJA 01"),
             ]
         elif empresa == "LOJA 02 - INDAIAL":
             filtro_setor_empresa1.options = [
-                ft.dropdown.Option('LOJA 02 - PRINCIPAL LOJA'),
-                ft.dropdown.Option("LOJA 02 - ESTOQUE TINTAS"),
+                ft.dropdown.Option('Setor 01 - PRINCIPAL LOJA 02'),
+                ft.dropdown.Option("Setor 04 - ESTOQUE TINTAS LOJA 02"),
             ]
         elif empresa == "LOJA 03 - DIESEL":
             filtro_setor_empresa1.options = [
-                ft.dropdown.Option("LOJA 03 - CD"),
-                ft.dropdown.Option('LOJA 03 - PRINCIPAL LOJA'),
+                ft.dropdown.Option("Setor 05 - CD LOJA 03"),
+                ft.dropdown.Option('Setor 01 - PRINCIPAL LOJA 03'),
             ]
         elif empresa == "LOJA 04 - BLUMENAU":
             filtro_setor_empresa1.options = [
-                ft.dropdown.Option('LOJA 04 - PRINCIPAL LOJA'),
-                ft.dropdown.Option("LOJA 04 - ESTOQUE TINTAS"),
+                ft.dropdown.Option('Setor 01 - PRINCIPAL LOJA 04'),
+                ft.dropdown.Option("Setor 04 - ESTOQUE TINTAS LOJA 04"),
             ]
 
         filtro_setor_empresa1.update()
