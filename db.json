@@ -10,7 +10,9 @@
             "giro_medio":24.0,
             "codigo_local":"02010199001",
             "codigo_local_2":"02010199001",
-            "desc_local":"02R01A001"
+            "desc_local":"02R01A001",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 05"
         },
         {
             "ID":2,
@@ -22,7 +24,9 @@
             "giro_medio":19.0,
             "codigo_local":"02010199002",
             "codigo_local_2":"02010199002",
-            "desc_local":"02R01A002"
+            "desc_local":"02R01A002",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 05"
         },
         {
             "ID":3,
@@ -34,7 +38,9 @@
             "giro_medio":28.0,
             "codigo_local":"02010199003",
             "codigo_local_2":"02010199003",
-            "desc_local":"02R01A003"
+            "desc_local":"02R01A003",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 05"
         },
         {
             "ID":4,
@@ -46,7 +52,9 @@
             "giro_medio":21.67,
             "codigo_local":"02010199004",
             "codigo_local_2":"02010199004",
-            "desc_local":"02R01A004"
+            "desc_local":"02R01A004",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 05"
         },
         {
             "ID":5,
@@ -58,7 +66,9 @@
             "giro_medio":15.67,
             "codigo_local":"02010199005",
             "codigo_local_2":"02010199005",
-            "desc_local":"02R01A005"
+            "desc_local":"02R01A005",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 05"
         },
         {
             "ID":6,
@@ -70,7 +80,9 @@
             "giro_medio":17.33,
             "codigo_local":"02010199006",
             "codigo_local_2":"02010199006",
-            "desc_local":"02R01A006"
+            "desc_local":"02R01A006",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 5"
         },
         {
             "ID":7,
@@ -82,7 +94,9 @@
             "giro_medio":33.33,
             "codigo_local":"02010199007",
             "codigo_local_2":"02010199007",
-            "desc_local":"02R01A007"
+            "desc_local":"02R01A007",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 5"
         },
         {
             "ID":8,
@@ -94,7 +108,9 @@
             "giro_medio":36.67,
             "codigo_local":"02010199008",
             "codigo_local_2":"02010199008",
-            "desc_local":"02R01A008"
+            "desc_local":"02R01A008",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 5"
         },
         {
             "ID":9,
@@ -106,7 +122,9 @@
             "giro_medio":30.0,
             "codigo_local":"02010199009",
             "codigo_local_2":"02010199009",
-            "desc_local":"02R01A009"
+            "desc_local":"02R01A009",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 5"
         },
         {
             "ID":10,
@@ -118,7 +136,9 @@
             "giro_medio":25.0,
             "codigo_local":"02010199010",
             "codigo_local_2":"02010199010",
-            "desc_local":"02R01A010"
+            "desc_local":"02R01A010",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 5"
         },
         {
             "ID":11,
@@ -130,7 +150,9 @@
             "giro_medio":19.0,
             "codigo_local":"02010199011",
             "codigo_local_2":"02010199011",
-            "desc_local":"02R01A011"
+            "desc_local":"02R01A011",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 11"
         },
         {
             "ID":12,
@@ -142,7 +164,9 @@
             "giro_medio":23.0,
             "codigo_local":"02010199012",
             "codigo_local_2":"02010199012",
-            "desc_local":"02R01A012"
+            "desc_local":"02R01A012",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 11"
         },
         {
             "ID":13,
@@ -154,7 +178,9 @@
             "giro_medio":14.67,
             "codigo_local":"02010199013",
             "codigo_local_2":"02010199013",
-            "desc_local":"02R01A013"
+            "desc_local":"02R01A013",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 11"
         },
         {
             "ID":14,
@@ -166,7 +192,9 @@
             "giro_medio":28.0,
             "codigo_local":"02010199014",
             "codigo_local_2":"02010199014",
-            "desc_local":"02R01A014"
+            "desc_local":"02R01A014",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 11"
         },
         {
             "ID":15,
@@ -178,7 +206,9 @@
             "giro_medio":26.67,
             "codigo_local":"02010199015",
             "codigo_local_2":"02010199015",
-            "desc_local":"02R01A015"
+            "desc_local":"02R01A015",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 11"
         },
         {
             "ID":16,
@@ -190,7 +220,9 @@
             "giro_medio":25.0,
             "codigo_local":"02010199016",
             "codigo_local_2":"02010199016",
-            "desc_local":"02R01A016"
+            "desc_local":"02R01A016",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 11"
         },
         {
             "ID":17,
@@ -202,7 +234,9 @@
             "giro_medio":38.67,
             "codigo_local":"02010199017",
             "codigo_local_2":"02010199017",
-            "desc_local":"02R01A017"
+            "desc_local":"02R01A017",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 11"
         },
         {
             "ID":18,
@@ -214,7 +248,9 @@
             "giro_medio":22.67,
             "codigo_local":"02010199018",
             "codigo_local_2":"02010199018",
-            "desc_local":"02R01A018"
+            "desc_local":"02R01A018",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 11"
         },
         {
             "ID":19,
@@ -226,7 +262,9 @@
             "giro_medio":37.0,
             "codigo_local":"02010199019",
             "codigo_local_2":"02010199019",
-            "desc_local":"02R01A019"
+            "desc_local":"02R01A019",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 11"
         },
         {
             "ID":20,
@@ -238,7 +276,9 @@
             "giro_medio":14.67,
             "codigo_local":"02010199020",
             "codigo_local_2":"02010199020",
-            "desc_local":"02R01A020"
+            "desc_local":"02R01A020",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"CD - Setor 11"
         },
         {
             "ID":21,
@@ -250,7 +290,9 @@
             "giro_medio":10.33,
             "codigo_local":"02010199021",
             "codigo_local_2":"02010199021",
-            "desc_local":"02R01A021"
+            "desc_local":"02R01A021",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - PRINCIPAL LOJA"
         },
         {
             "ID":22,
@@ -262,7 +304,9 @@
             "giro_medio":13.33,
             "codigo_local":"02010199022",
             "codigo_local_2":"02010199022",
-            "desc_local":"02R01A022"
+            "desc_local":"02R01A022",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - PRINCIPAL LOJA"
         },
         {
             "ID":23,
@@ -274,7 +318,9 @@
             "giro_medio":41.67,
             "codigo_local":"02010199023",
             "codigo_local_2":"02010199023",
-            "desc_local":"02R01A023"
+            "desc_local":"02R01A023",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - PRINCIPAL LOJA"
         },
         {
             "ID":24,
@@ -286,7 +332,9 @@
             "giro_medio":27.67,
             "codigo_local":"02010199024",
             "codigo_local_2":"02010199024",
-            "desc_local":"02R01A024"
+            "desc_local":"02R01A024",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - PRINCIPAL LOJA"
         },
         {
             "ID":25,
@@ -298,7 +346,9 @@
             "giro_medio":19.67,
             "codigo_local":"02010199025",
             "codigo_local_2":"02010199025",
-            "desc_local":"02R01A025"
+            "desc_local":"02R01A025",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - PRINCIPAL LOJA"
         },
         {
             "ID":26,
@@ -310,7 +360,9 @@
             "giro_medio":18.33,
             "codigo_local":"02010199026",
             "codigo_local_2":"02010199026",
-            "desc_local":"02R01A026"
+            "desc_local":"02R01A026",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - PRINCIPAL LOJA"
         },
         {
             "ID":27,
@@ -322,7 +374,9 @@
             "giro_medio":35.0,
             "codigo_local":"02010199027",
             "codigo_local_2":"02010199027",
-            "desc_local":"02R01A027"
+            "desc_local":"02R01A027",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - PRINCIPAL LOJA"
         },
         {
             "ID":28,
@@ -334,7 +388,9 @@
             "giro_medio":24.33,
             "codigo_local":"02010199028",
             "codigo_local_2":"02010199028",
-            "desc_local":"02R01A028"
+            "desc_local":"02R01A028",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - PRINCIPAL LOJA"
         },
         {
             "ID":29,
@@ -346,7 +402,9 @@
             "giro_medio":26.67,
             "codigo_local":"02010199029",
             "codigo_local_2":"02010199029",
-            "desc_local":"02R01A029"
+            "desc_local":"02R01A029",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - PRINCIPAL LOJA"
         },
         {
             "ID":30,
@@ -358,7 +416,9 @@
             "giro_medio":30.33,
             "codigo_local":"02010199030",
             "codigo_local_2":"02010199030",
-            "desc_local":"02R01A030"
+            "desc_local":"02R01A030",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - PRINCIPAL LOJA"
         },
         {
             "ID":31,
@@ -368,9 +428,11 @@
             "giro_60":48,
             "giro_90":22,
             "giro_medio":26.67,
-            "codigo_local":"02010199031",
-            "codigo_local_2":"02010199031",
-            "desc_local":"02R01A031"
+            "codigo_local":"03010199031",
+            "codigo_local_2":"03010199031",
+            "desc_local":"03R01A031",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE 03"
         },
         {
             "ID":32,
@@ -380,9 +442,11 @@
             "giro_60":45,
             "giro_90":47,
             "giro_medio":47.0,
-            "codigo_local":"02010199032",
-            "codigo_local_2":"02010199032",
-            "desc_local":"02R01A032"
+            "codigo_local":"03010199032",
+            "codigo_local_2":"03010199032",
+            "desc_local":"03R01A032",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE 03"
         },
         {
             "ID":33,
@@ -392,9 +456,11 @@
             "giro_60":31,
             "giro_90":14,
             "giro_medio":20.33,
-            "codigo_local":"02010199033",
-            "codigo_local_2":"02010199033",
-            "desc_local":"02R01A033"
+            "codigo_local":"03010199033",
+            "codigo_local_2":"03010199033",
+            "desc_local":"03R01A033",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE 03"
         },
         {
             "ID":34,
@@ -404,9 +470,11 @@
             "giro_60":37,
             "giro_90":14,
             "giro_medio":25.67,
-            "codigo_local":"02010199034",
-            "codigo_local_2":"02010199034",
-            "desc_local":"02R01A034"
+            "codigo_local":"03010199034",
+            "codigo_local_2":"03010199034",
+            "desc_local":"03R01A034",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE 03"
         },
         {
             "ID":35,
@@ -416,9 +484,11 @@
             "giro_60":28,
             "giro_90":34,
             "giro_medio":30.33,
-            "codigo_local":"02010199035",
-            "codigo_local_2":"02010199035",
-            "desc_local":"02R01A035"
+            "codigo_local":"03010199035",
+            "codigo_local_2":"03010199035",
+            "desc_local":"03R01A035",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE 03"
         },
         {
             "ID":36,
@@ -428,9 +498,11 @@
             "giro_60":43,
             "giro_90":49,
             "giro_medio":35.0,
-            "codigo_local":"02010199036",
-            "codigo_local_2":"02010199036",
-            "desc_local":"02R01A036"
+            "codigo_local":"03010199036",
+            "codigo_local_2":"03010199036",
+            "desc_local":"03R01A036",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE 03"
         },
         {
             "ID":37,
@@ -440,9 +512,11 @@
             "giro_60":31,
             "giro_90":21,
             "giro_medio":18.0,
-            "codigo_local":"02010199037",
-            "codigo_local_2":"02010199037",
-            "desc_local":"02R01A037"
+            "codigo_local":"03010199037",
+            "codigo_local_2":"03010199037",
+            "desc_local":"03R01A037",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE 03"
         },
         {
             "ID":38,
@@ -452,9 +526,11 @@
             "giro_60":37,
             "giro_90":16,
             "giro_medio":19.33,
-            "codigo_local":"02010199038",
-            "codigo_local_2":"02010199038",
-            "desc_local":"02R01A038"
+            "codigo_local":"03010199038",
+            "codigo_local_2":"03010199038",
+            "desc_local":"03R01A038",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE 03"
         },
         {
             "ID":39,
@@ -464,9 +540,11 @@
             "giro_60":18,
             "giro_90":8,
             "giro_medio":16.33,
-            "codigo_local":"02010199039",
+            "codigo_local":"03010199039",
             "codigo_local_2":"02010199039",
-            "desc_local":"02R01A039"
+            "desc_local":"03R01A039",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE 03"
         },
         {
             "ID":40,
@@ -476,9 +554,11 @@
             "giro_60":46,
             "giro_90":42,
             "giro_medio":40.0,
-            "codigo_local":"02010199040",
+            "codigo_local":"03010199040",
             "codigo_local_2":"02010199040",
-            "desc_local":"02R01A040"
+            "desc_local":"03R01A040",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE 03"
         },
         {
             "ID":41,
@@ -1190,4 +1270,4 @@
      }
 
     ]
-}
+} 
