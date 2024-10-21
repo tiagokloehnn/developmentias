@@ -18,7 +18,7 @@
             "ID":2,
             "codigo_produto":100001,
             "Marca":"Marca A",
-            "giro_30":12,
+            "giro_30":12, 
             "giro_60":22,
             "giro_90":23,
             "giro_medio":19.0,
