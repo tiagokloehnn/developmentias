@@ -541,7 +541,7 @@
             "giro_90":8,
             "giro_medio":16.33,
             "codigo_local":"03010199039",
-            "codigo_local_2":"02010199039",
+            "codigo_local_2":"03010199039",
             "desc_local":"03R01A039",
             "empresa":"LOJA 01 - MATRIZ",
             "setor":"LOJA 01 - ESTOQUE 03"
@@ -555,7 +555,7 @@
             "giro_90":42,
             "giro_medio":40.0,
             "codigo_local":"03010199040",
-            "codigo_local_2":"02010199040",
+            "codigo_local_2":"03010199040",
             "desc_local":"03R01A040",
             "empresa":"LOJA 01 - MATRIZ",
             "setor":"LOJA 01 - ESTOQUE 03"
@@ -568,9 +568,11 @@
             "giro_60":7,
             "giro_90":11,
             "giro_medio":18.0,
-            "codigo_local":"02010199041",
-            "codigo_local_2":"02010199041",
-            "desc_local":"02R01A041"
+            "codigo_local":"02015699041",
+            "codigo_local_2":"02015699041",
+            "desc_local":"02R56A041",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE TINTAS"    
         },
         {
             "ID":42,
@@ -580,9 +582,11 @@
             "giro_60":2,
             "giro_90":50,
             "giro_medio":22.0,
-            "codigo_local":"02010199042",
-            "codigo_local_2":"02010199042",
-            "desc_local":"02R01A042"
+            "codigo_local":"02015699042",
+            "codigo_local_2":"02015699042",
+            "desc_local":"02R56A042",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE TINTAS"
         },
         {
             "ID":43,
@@ -592,9 +596,11 @@
             "giro_60":33,
             "giro_90":32,
             "giro_medio":25.33,
-            "codigo_local":"02010199043",
-            "codigo_local_2":"02010199043",
-            "desc_local":"02R01A043"
+            "codigo_local":"02015699043",
+            "codigo_local_2":"02015699043",
+            "desc_local":"02R56A043",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE TINTAS"
         },
         {
             "ID":44,
@@ -604,9 +610,11 @@
             "giro_60":42,
             "giro_90":9,
             "giro_medio":25.0,
-            "codigo_local":"02010199044",
-            "codigo_local_2":"02010199044",
-            "desc_local":"02R01A044"
+            "codigo_local":"02015699044",
+            "codigo_local_2":"02015699044",
+            "desc_local":"02R56A044",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE TINTAS"
         },
         {
             "ID":45,
@@ -616,9 +624,11 @@
             "giro_60":44,
             "giro_90":24,
             "giro_medio":33.0,
-            "codigo_local":"02010199045",
-            "codigo_local_2":"02010199045",
-            "desc_local":"02R01A045"
+            "codigo_local":"02015699045",
+            "codigo_local_2":"02015699045",
+            "desc_local":"02R56A045",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE TINTAS"
         },
         {
             "ID":46,
@@ -628,9 +638,11 @@
             "giro_60":21,
             "giro_90":10,
             "giro_medio":11.33,
-            "codigo_local":"02010199046",
-            "codigo_local_2":"02010199046",
-            "desc_local":"02R01A046"
+            "codigo_local":"02015699046",
+            "codigo_local_2":"02015699046",
+            "desc_local":"02R56A046",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE TINTAS"
         },
         {
             "ID":47,
@@ -640,9 +652,11 @@
             "giro_60":47,
             "giro_90":15,
             "giro_medio":32.0,
-            "codigo_local":"02010199047",
-            "codigo_local_2":"02010199047",
-            "desc_local":"02R01A047"
+            "codigo_local":"02015699047",
+            "codigo_local_2":"02015699047",
+            "desc_local":"02R56A047",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE TINTAS"
         },
         {
             "ID":48,
@@ -652,9 +666,11 @@
             "giro_60":42,
             "giro_90":30,
             "giro_medio":37.33,
-            "codigo_local":"02010199048",
-            "codigo_local_2":"02010199048",
-            "desc_local":"02R01A048"
+            "codigo_local":"02015699048",
+            "codigo_local_2":"02015699048",
+            "desc_local":"02R56A048",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE TINTAS"
         },
         {
             "ID":49,
@@ -664,9 +680,11 @@
             "giro_60":16,
             "giro_90":19,
             "giro_medio":26.33,
-            "codigo_local":"02010199049",
-            "codigo_local_2":"02010199049",
-            "desc_local":"02R01A049"
+            "codigo_local":"02015699049",
+            "codigo_local_2":"02015699049",
+            "desc_local":"02R56A049",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE TINTAS"
         },
         {
             "ID":50,
@@ -676,9 +694,11 @@
             "giro_60":26,
             "giro_90":19,
             "giro_medio":21.0,
-            "codigo_local":"02010199050",
-            "codigo_local_2":"02010199050",
-            "desc_local":"02R01A050"
+            "codigo_local":"02015699050",
+            "codigo_local_2":"02015699050",
+            "desc_local":"02R56A050",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE TINTAS"
         },
         {
             "ID":51,
@@ -688,9 +708,11 @@
             "giro_60":8,
             "giro_90":33,
             "giro_medio":17.0,
-            "codigo_local":"02010199051",
-            "codigo_local_2":"02010199051",
-            "desc_local":"02R01A051"
+            "codigo_local":"020199051",
+            "codigo_local_2":"020199051",
+            "desc_local":"02R01A051",
+            "empresa":"LOJA 01 - MATRIZ",
+            "setor":"LOJA 01 - ESTOQUE 03"
         },
         {
             "ID":52,
@@ -700,9 +722,12 @@
             "giro_60":38,
             "giro_90":2,
             "giro_medio":20.0,
-            "codigo_local":"02010199052",
-            "codigo_local_2":"02010199052",
-            "desc_local":"02R01A052"
+            "codigo_local":"02011299052",
+            "codigo_local_2":"02011299052",
+            "desc_local":"02R12A052",
+            "empresa":"LOJA 02 - INDAIAL",
+            "setor":"LOJA 02 - PRINCIPAL LOJA"
+            
         },
         {
             "ID":53,
@@ -712,9 +737,11 @@
             "giro_60":10,
             "giro_90":36,
             "giro_medio":28.67,
-            "codigo_local":"02010199053",
-            "codigo_local_2":"02010199053",
-            "desc_local":"02R01A053"
+            "codigo_local":"02011299053",
+            "codigo_local_2":"02011299053",
+            "desc_local":"02R12A053",
+            "empresa":"LOJA 02 - INDAIAL",
+            "setor":"LOJA 02 - PRINCIPAL LOJA"
         },
         {
             "ID":54,
@@ -724,9 +751,11 @@
             "giro_60":16,
             "giro_90":10,
             "giro_medio":14.0,
-            "codigo_local":"02010199054",
-            "codigo_local_2":"02010199054",
-            "desc_local":"02R01A054"
+            "codigo_local":"02011299054",
+            "codigo_local_2":"02011299054",
+            "desc_local":"02R12A054",
+            "empresa":"LOJA 02 - INDAIAL",
+            "setor":"LOJA 02 - PRINCIPAL LOJA"
         },
         {
             "ID":55,
@@ -736,9 +765,11 @@
             "giro_60":20,
             "giro_90":12,
             "giro_medio":13.33,
-            "codigo_local":"02010199055",
-            "codigo_local_2":"02010199055",
-            "desc_local":"02R01A055"
+            "codigo_local":"02011299055",
+            "codigo_local_2":"02011299055",
+            "desc_local":"02R12A055",
+            "empresa":"LOJA 02 - INDAIAL",
+            "setor":"LOJA 02 - PRINCIPAL LOJA"
         },
         {
             "ID":56,
@@ -748,9 +779,11 @@
             "giro_60":14,
             "giro_90":50,
             "giro_medio":22.0,
-            "codigo_local":"02010199056",
-            "codigo_local_2":"02010199056",
-            "desc_local":"02R01A056"
+            "codigo_local":"02011299056",
+            "codigo_local_2":"02011299056",
+            "desc_local":"02R12A056",
+            "empresa":"LOJA 02 - INDAIAL",
+            "setor":"LOJA 02 - PRINCIPAL LOJA"
         },
         {
             "ID":57,
@@ -760,9 +793,11 @@
             "giro_60":3,
             "giro_90":9,
             "giro_medio":15.67,
-            "codigo_local":"02010199057",
-            "codigo_local_2":"02010199057",
-            "desc_local":"02R01A057"
+            "codigo_local":"02011299057",
+            "codigo_local_2":"02011299057",
+            "desc_local":"02R12A057",
+            "empresa":"LOJA 02 - INDAIAL",
+            "setor":"LOJA 02 - PRINCIPAL LOJA"
         },
         {
             "ID":58,
@@ -772,9 +807,11 @@
             "giro_60":6,
             "giro_90":29,
             "giro_medio":25.0,
-            "codigo_local":"02010199058",
-            "codigo_local_2":"02010199058",
-            "desc_local":"02R01A058"
+            "codigo_local":"02011299058",
+            "codigo_local_2":"02011299058",
+            "desc_local":"02R12A058",
+            "empresa":"LOJA 02 - INDAIAL",
+            "setor":"LOJA 02 - PRINCIPAL LOJA"
         },
      {
         "ID": 60,
@@ -784,9 +821,11 @@
         "giro_60": 10,
         "giro_90": 14,
         "giro_medio": 22.67,
-        "codigo_local": "02010199060",
-        "codigo_local_2": "02010199060",
-        "desc_local": "02R01A060"
+        "codigo_local": "02011299060",
+        "codigo_local_2": "02011299060",
+        "desc_local": "02R12A060",
+        "empresa":"LOJA 02 - INDAIAL",
+        "setor":"LOJA 02 - PRINCIPAL LOJA"
     },
     {
         "ID": 61,
@@ -796,9 +835,11 @@
         "giro_60": 9,
         "giro_90": 26,
         "giro_medio": 25.33,
-        "codigo_local": "02010199061",
-        "codigo_local_2": "02010199061",
-        "desc_local": "02R01A061"
+        "codigo_local": "02011699061",
+        "codigo_local_2": "02011699061",
+        "desc_local": "02R16A061",
+        "empresa":"LOJA 02 - INDAIAL",
+        "setor":"LOJA 02 - ESTOQUE TINTAS"
     },
     {
         "ID": 62,
@@ -808,9 +849,11 @@
         "giro_60": 32,
         "giro_90": 33,
         "giro_medio": 32.67,
-        "codigo_local": "02010199062",
-        "codigo_local_2": "02010199062",
-        "desc_local": "02R01A062"
+        "codigo_local": "02011699062",
+        "codigo_local_2": "02011699062",
+        "desc_local": "02R16A062",
+        "empresa":"LOJA 02 - INDAIAL",
+        "setor":"LOJA 02 - ESTOQUE TINTAS"
     },
     {
         "ID": 63,
@@ -820,9 +863,11 @@
         "giro_60": 32,
         "giro_90": 41,
         "giro_medio": 31.0,
-        "codigo_local": "02010199063",
-        "codigo_local_2": "02010199063",
-        "desc_local": "02R01A063"
+        "codigo_local": "02011699063",
+        "codigo_local_2": "02011699063",
+        "desc_local": "02R16A063",
+        "empresa":"LOJA 02 - INDAIAL",
+        "setor":"LOJA 02 - ESTOQUE TINTAS"
     },
     {
         "ID": 64,
@@ -832,9 +877,11 @@
         "giro_60": 31,
         "giro_90": 22,
         "giro_medio": 25.33,
-        "codigo_local": "02010199064",
-        "codigo_local_2": "02010199064",
-        "desc_local": "02R01A064"
+        "codigo_local": "02011699064",
+        "codigo_local_2": "02011699064",
+        "desc_local": "02R16A064",
+        "empresa":"LOJA 02 - INDAIAL",
+        "setor":"LOJA 02 - ESTOQUE TINTAS"
     },
     {
         "ID": 65,
@@ -844,9 +891,11 @@
         "giro_60": 50,
         "giro_90": 14,
         "giro_medio": 27.67,
-        "codigo_local": "02010199065",
-        "codigo_local_2": "02010199065",
-        "desc_local": "02R01A065"
+        "codigo_local": "02011699065",
+        "codigo_local_2": "02011699065",
+        "desc_local": "02R16A065",
+        "empresa":"LOJA 02 - INDAIAL",
+        "setor":"LOJA 02 - ESTOQUE TINTAS"
     },
     {
         "ID": 66,
@@ -856,9 +905,11 @@
         "giro_60": 29,
         "giro_90": 22,
         "giro_medio": 20.67,
-        "codigo_local": "02010199066",
-        "codigo_local_2": "02010199066",
-        "desc_local": "02R01A066"
+        "codigo_local": "02011699066",
+        "codigo_local_2": "02011699066",
+        "desc_local": "02R16A066",
+        "empresa":"LOJA 02 - INDAIAL",
+        "setor":"LOJA 02 - ESTOQUE TINTAS"
     },
     {
         "ID": 67,
@@ -868,9 +919,11 @@
         "giro_60": 14,
         "giro_90": 21,
         "giro_medio": 17.33,
-        "codigo_local": "02010199067",
-        "codigo_local_2": "02010199067",
-        "desc_local": "02R01A067"
+        "codigo_local": "02011699067",
+        "codigo_local_2": "02011699067",
+        "desc_local": "02R16A067",
+        "empresa":"LOJA 02 - INDAIAL",
+        "setor":"LOJA 02 - ESTOQUE LOJA"
     },
     {
         "ID": 68,
@@ -880,9 +933,11 @@
         "giro_60": 35,
         "giro_90": 30,
         "giro_medio": 33.33,
-        "codigo_local": "02010199068",
-        "codigo_local_2": "02010199068",
-        "desc_local": "02R01A068"
+        "codigo_local": "02011699068",
+        "codigo_local_2": "02011699068",
+        "desc_local": "02R16A068",
+        "empresa":"LOJA 02 - INDAIAL",
+        "setor":"LOJA 02 - ESTOQUE TINTAS"
     },
     {
         "ID": 69,
@@ -892,9 +947,11 @@
         "giro_60": 24,
         "giro_90": 12,
         "giro_medio": 18.67,
-        "codigo_local": "02010199069",
-        "codigo_local_2": "02010199069",
-        "desc_local": "02R01A069"
+        "codigo_local": "02011699069",
+        "codigo_local_2": "02011699069",
+        "desc_local": "02R16A069",
+        "empresa":"LOJA 02 - INDAIAL",
+        "setor":"LOJA 02 - ESTOQUE TINTAS"
     },
     {
         "ID": 70,
@@ -904,9 +961,11 @@
         "giro_60": 26,
         "giro_90": 25,
         "giro_medio": 22.67,
-        "codigo_local": "02010199070",
-        "codigo_local_2": "02010199070",
-        "desc_local": "02R01A070"
+        "codigo_local": "02011699070",
+        "codigo_local_2": "02011699070",
+        "desc_local": "02R16A070",
+        "empresa":"LOJA 02 - INDAIAL",
+        "setor":"LOJA 02 - ESTOQUE TINTAS"
     },
     {
         "ID": 71,
@@ -916,9 +975,11 @@
         "giro_60": 34,
         "giro_90": 6,
         "giro_medio": 29.67,
-        "codigo_local": "02010199071",
-        "codigo_local_2": "02010199071",
-        "desc_local": "02R01A071"
+        "codigo_local": "02012399071",
+        "codigo_local_2": "02012399071",
+        "desc_local": "02R23A071",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - CD"
     },
     {
         "ID": 72,
@@ -928,9 +989,11 @@
         "giro_60": 24,
         "giro_90": 32,
         "giro_medio": 19.0,
-        "codigo_local": "02010199072",
-        "codigo_local_2": "02010199072",
-        "desc_local": "02R01A072"
+        "codigo_local": "02012399072",
+        "codigo_local_2": "02012399072",
+        "desc_local": "02R23A072",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - CD"
     },
     {
         "ID": 73,
@@ -940,9 +1003,11 @@
         "giro_60": 2,
         "giro_90": 44,
         "giro_medio": 30.0,
-        "codigo_local": "02010199073",
-        "codigo_local_2": "02010199073",
-        "desc_local": "02R01A073"
+        "codigo_local": "02012399073",
+        "codigo_local_2": "02012399073",
+        "desc_local": "02R23A073",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - CD"
     },
     {
         "ID": 74,
@@ -952,9 +1017,11 @@
         "giro_60": 42,
         "giro_90": 46,
         "giro_medio": 33.0,
-        "codigo_local": "02010199074",
-        "codigo_local_2": "02010199074",
-        "desc_local": "02R01A074"
+        "codigo_local": "02012399074",
+        "codigo_local_2": "02012399074",
+        "desc_local": "02R23A074",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - CD"
     },
     {
         "ID": 75,
@@ -964,9 +1031,11 @@
         "giro_60": 40,
         "giro_90": 48,
         "giro_medio": 39.33,
-        "codigo_local": "02010199075",
-        "codigo_local_2": "02010199075",
-        "desc_local": "02R01A075"
+        "codigo_local": "02012399075",
+        "codigo_local_2": "02012399075",
+        "desc_local": "02R23A075",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - CD"
     },
     {
         "ID": 76,
@@ -976,9 +1045,11 @@
         "giro_60": 14,
         "giro_90": 23,
         "giro_medio": 27.33,
-        "codigo_local": "02010199076",
-        "codigo_local_2": "02010199076",
-        "desc_local": "02R01A076"
+        "codigo_local": "02012399076",
+        "codigo_local_2": "02012399076",
+        "desc_local": "02R23A076",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - CD"
     },
     {
         "ID": 77,
@@ -988,9 +1059,11 @@
         "giro_60": 8,
         "giro_90": 39,
         "giro_medio": 23.0,
-        "codigo_local": "02010199077",
-        "codigo_local_2": "02010199077",
-        "desc_local": "02R01A077"
+        "codigo_local": "02012399077",
+        "codigo_local_2": "02012399077",
+        "desc_local": "02R23A077",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - CD"
     },
     {
         "ID": 78,
@@ -1000,9 +1073,11 @@
         "giro_60": 10,
         "giro_90": 28,
         "giro_medio": 15.33,
-        "codigo_local": "02010199078",
-        "codigo_local_2": "02010199078",
-        "desc_local": "02R01A078"
+        "codigo_local": "02012399078",
+        "codigo_local_2": "02012399078",
+        "desc_local": "02R23A078",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - CD"
     },
     {
         "ID": 79,
@@ -1012,9 +1087,11 @@
         "giro_60": 49,
         "giro_90": 40,
         "giro_medio": 34.0,
-        "codigo_local": "02010199079",
-        "codigo_local_2": "02010199079",
-        "desc_local": "02R01A079"
+        "codigo_local": "02012399079",
+        "codigo_local_2": "02012399079",
+        "desc_local": "02R23A079",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - CD"
     },
     {
         "ID": 80,
@@ -1024,9 +1101,11 @@
         "giro_60": 43,
         "giro_90": 21,
         "giro_medio": 33.33,
-        "codigo_local": "02010199080",
-        "codigo_local_2": "02010199080",
-        "desc_local": "02R01A080"
+        "codigo_local": "02012399080",
+        "codigo_local_2": "02012399080",
+        "desc_local": "02R23A080",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - CD"
     },
     {
         "ID": 81,
