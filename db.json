@@ -1115,9 +1115,11 @@
         "giro_60": 13,
         "giro_90": 17,
         "giro_medio": 19.0,
-        "codigo_local": "02010199081",
-        "codigo_local_2": "02010199081",
-        "desc_local": "02R01A081"
+        "codigo_local": "02011599081",
+        "codigo_local_2": "02011599081",
+        "desc_local": "02R15A081",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - PRINCIPAL LOJA"
     },
     {
         "ID": 82,
@@ -1127,9 +1129,11 @@
         "giro_60": 5,
         "giro_90": 31,
         "giro_medio": 26.0,
-        "codigo_local": "02010199082",
-        "codigo_local_2": "02010199082",
-        "desc_local": "02R01A082"
+        "codigo_local": "02011599082",
+        "codigo_local_2": "02011599082",
+        "desc_local": "02R15A082",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - PRINCIPAL LOJA"
     },
     {
         "ID": 83,
@@ -1139,9 +1143,11 @@
         "giro_60": 14,
         "giro_90": 21,
         "giro_medio": 17.67,
-        "codigo_local": "02010199083",
-        "codigo_local_2": "02010199083",
-        "desc_local": "02R01A083"
+        "codigo_local": "02011599083",
+        "codigo_local_2": "02011599083",
+        "desc_local": "02R15A083",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - PRINCIPAL LOJA"
     },
     {
         "ID": 84,
@@ -1151,9 +1157,11 @@
         "giro_60": 32,
         "giro_90": 12,
         "giro_medio": 28.0,
-        "codigo_local": "02010199084",
-        "codigo_local_2": "02010199084",
-        "desc_local": "02R01A084"
+        "codigo_local": "02011599084",
+        "codigo_local_2": "02011599084",
+        "desc_local": "02R15A084",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - PRINCIPAL LOJA"
     },
     {
         "ID": 85,
@@ -1163,9 +1171,11 @@
         "giro_60": 26,
         "giro_90": 22,
         "giro_medio": 21.0,
-        "codigo_local": "02010199085",
-        "codigo_local_2": "02010199085",
-        "desc_local": "02R01A085"
+        "codigo_local": "02011599085",
+        "codigo_local_2": "02011599085",
+        "desc_local": "02R15A085",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - PRINCIPAL LOJA"
     },
     {
         "ID": 86,
@@ -1175,9 +1185,11 @@
         "giro_60": 38,
         "giro_90": 29,
         "giro_medio": 30.33,
-        "codigo_local": "02010199086",
-        "codigo_local_2": "02010199086",
-        "desc_local": "02R01A086"
+        "codigo_local": "02011599086",
+        "codigo_local_2": "02011599086",
+        "desc_local": "02R15A086",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - PRINCIPAL LOJA"
     },
     {
         "ID": 87,
@@ -1187,9 +1199,11 @@
         "giro_60": 17,
         "giro_90": 7,
         "giro_medio": 21.0,
-        "codigo_local": "02010199087",
-        "codigo_local_2": "02010199087",
-        "desc_local": "02R01A087"
+        "codigo_local": "02011599087",
+        "codigo_local_2": "02011599087",
+        "desc_local": "02R15A087",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - PRINCIPAL LOJA"
     },
     {
         "ID": 88,
@@ -1199,9 +1213,11 @@
         "giro_60": 19,
         "giro_90": 44,
         "giro_medio": 23.33,
-        "codigo_local": "02010199088",
-        "codigo_local_2": "02010199088",
-        "desc_local": "02R01A088"
+        "codigo_local": "02011599088",
+        "codigo_local_2": "02011599088",
+        "desc_local": "02R15A088",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - PRINCIPAL LOJA"
     },
     {
         "ID": 89,
@@ -1211,9 +1227,11 @@
         "giro_60": 24,
         "giro_90": 26,
         "giro_medio": 32.33,
-        "codigo_local": "02010199089",
-        "codigo_local_2": "02010199089",
-        "desc_local": "02R01A089"
+        "codigo_local": "02011599089",
+        "codigo_local_2": "02011599089",
+        "desc_local": "02R15A089",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - PRINCIPAL LOJA"
     },
     {
         "ID": 90,
@@ -1223,9 +1241,11 @@
         "giro_60": 10,
         "giro_90": 19,
         "giro_medio": 20.67,
-        "codigo_local": "02010199090",
-        "codigo_local_2": "02010199090",
-        "desc_local": "02R01A090"
+        "codigo_local": "02011599090",
+        "codigo_local_2": "02011599090",
+        "desc_local": "02R15A090",
+        "empresa":"LOJA 03 - DIESEL",
+        "setor":"LOJA 03 - PRINCIPAL LOJA"
     },
     {
         "ID": 91,
@@ -1235,9 +1255,11 @@
         "giro_60": 31,
         "giro_90": 20,
         "giro_medio": 21.0,
-        "codigo_local": "02010199091",
-        "codigo_local_2": "02010199091",
-        "desc_local": "02R01A091"
+        "codigo_local": "02014799091",
+        "codigo_local_2": "02014799091",
+        "desc_local": "02R47A091",
+        "empresa":"LOJA 04 - BLUMENAU",
+        "setor":"LOJA 04 - PRINCIPAL LOJA"
     },
     {
         "ID": 92,
@@ -1247,9 +1269,11 @@
         "giro_60": 29,
         "giro_90": 25,
         "giro_medio": 22.67,
-        "codigo_local": "02010199092",
-        "codigo_local_2": "02010199092",
-        "desc_local": "02R01A092"
+        "codigo_local": "02014799092",
+        "codigo_local_2": "02014799092",
+        "desc_local": "02R47A092",
+        "empresa":"LOJA 04 - BLUMENAU",
+        "setor":"LOJA 04 - PRINCIPAL LOJA"
     },
     {
         "ID": 93,
@@ -1259,9 +1283,11 @@
         "giro_60": 22,
         "giro_90": 34,
         "giro_medio": 27.0,
-        "codigo_local": "02010199093",
-        "codigo_local_2": "02010199093",
-        "desc_local": "02R01A093"
+        "codigo_local": "02014799093",
+        "codigo_local_2": "02014799093",
+        "desc_local": "02R47A093",
+        "empresa":"LOJA 04 - BLUMENAU",
+        "setor":"LOJA 04 - PRINCIPAL LOJA"
     },
     {
         "ID": 94,
@@ -1271,9 +1297,11 @@
         "giro_60": 42,
         "giro_90": 16,
         "giro_medio": 31.67,
-        "codigo_local": "02010199094",
-        "codigo_local_2": "02010199094",
-        "desc_local": "02R01A094"
+        "codigo_local": "02014799094",
+        "codigo_local_2": "02014799094",
+        "desc_local": "02R47A094",
+        "empresa":"LOJA 04 - BLUMENAU",
+        "setor":"LOJA 04 - PRINCIPAL LOJA"
     },
     {
         "ID": 95,
@@ -1283,9 +1311,11 @@
         "giro_60": 21,
         "giro_90": 38,
         "giro_medio": 22.33,
-        "codigo_local": "02010199095",
-        "codigo_local_2": "02010199095",
-        "desc_local": "02R01A095"
+        "codigo_local": "02014799095",
+        "codigo_local_2": "02014799095",
+        "desc_local": "02R47A095",
+        "empresa":"LOJA 04 - BLUMENAU",
+        "setor":"LOJA 04 - PRINCIPAL LOJA"
     },
     {
         "ID": 96,
@@ -1295,9 +1325,11 @@
         "giro_60": 35,
         "giro_90": 9,
         "giro_medio": 20.67,
-        "codigo_local": "02010199096",
-        "codigo_local_2": "02010199096",
-        "desc_local": "02R01A096"
+        "codigo_local": "02016399096",
+        "codigo_local_2": "02016399096",
+        "desc_local": "02R63A096",
+        "empresa":"LOJA 04 - BLUMENAU",
+        "setor":"LOJA 04 - ESTOQUE TINTAS"
     },
     {
         "ID": 97,
@@ -1307,9 +1339,11 @@
         "giro_60": 23,
         "giro_90": 45,
         "giro_medio": 29.67,
-        "codigo_local": "02010199097",
-        "codigo_local_2": "02010199097",
-        "desc_local": "02R01A097"
+        "codigo_local": "02016399097",
+        "codigo_local_2": "02016399097",
+        "desc_local": "02R63A097",
+        "empresa":"LOJA 04 - BLUMENAU",
+        "setor":"LOJA 04 - ESTOQUE TINTAS"
     },
     {
         "ID": 98,
@@ -1319,9 +1353,11 @@
         "giro_60": 44,
         "giro_90": 15,
         "giro_medio": 24.0,
-        "codigo_local": "02010199098",
-        "codigo_local_2": "02010199098",
-        "desc_local": "02R01A098"
+        "codigo_local": "02016399098",
+        "codigo_local_2": "02016399098",
+        "desc_local": "02R63A098",
+        "empresa":"LOJA 04 - BLUMENAU",
+        "setor":"LOJA 04 - ESTOQUE TINTAS"
     },
     {
         "ID": 99,
@@ -1331,9 +1367,11 @@
         "giro_60": 27,
         "giro_90": 41,
         "giro_medio": 34.67,
-        "codigo_local": "02010199099",
-        "codigo_local_2": "02010199099",
-        "desc_local": "02R01A099"
+        "codigo_local": "02016399099",
+        "codigo_local_2": "02016399099",
+        "desc_local": "02R63A099",
+        "empresa":"LOJA 04 - BLUMENAU",
+        "setor":"LOJA 04 - ESTOQUE TINTAS"
     },
     {
         "ID": 100,
@@ -1343,9 +1381,11 @@
         "giro_60": 9,
         "giro_90": 28,
         "giro_medio": 27.67,
-        "codigo_local": "02010199100",
-        "codigo_local_2": "02010199100",
-        "desc_local": "02R01A100"
+        "codigo_local": "02016399100",
+        "codigo_local_2": "02016399100",
+        "desc_local": "02R63A100",
+        "empresa":"LOJA 04 - BLUMENAU",
+        "setor":"LOJA 04 - ESTOQUE TINTAS"
      }
 
     ]
