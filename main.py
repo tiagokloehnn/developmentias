@@ -79,16 +79,19 @@ def main(page: ft.Page):
             control.error_text = "Por favor, insira um número inteiro."
 
     valor_banco = ft.TextField(
-        label="Valor do Banco de Dados", 
-        value="",
+    label="Valor do Banco de Dados", 
+    value="",
+    height=400,
+    read_only=True,  # Torna o campo não editável
+    multiline=True
     )
 
     # Função para carregar os dados do arquivo JSON
     def carregar_dados(e):
         try:
             # Abrindo e lendo o arquivo JSON
-            with open('db.json', 'r') as f:
-                dados_do_banco = json.load(f)  # Carrega os dados do JSON
+            with open('db.json', 'r') as db:
+                dados_do_banco = json.load(db)  # Carrega os dados do JSON
 
             # Convertendo os dados para string formatada
             dados_formatados = json.dumps(dados_do_banco, indent=4, ensure_ascii=False)
@@ -110,7 +113,7 @@ def main(page: ft.Page):
             [label_empresa, filtro_empresa],
             spacing=10  # Espaçamento interno
         ),
-        margin=ft.margin.only(bottom=40),  # Margem inferior
+        margin=ft.margin.only(bottom=10 ),  # Margem inferior
         padding=10  # Adiciona espaçamento ao redor
     )
 
@@ -119,7 +122,7 @@ def main(page: ft.Page):
             [label_setor, filtro_setor_empresa1],
             spacing=10
         ),
-        margin=ft.margin.only(bottom=40),
+        margin=ft.margin.only(bottom=10),
         padding=10
     )
 
@@ -128,7 +131,7 @@ def main(page: ft.Page):
             [label_dias, number_input],
             spacing=10
         ),
-        margin=ft.margin.only(bottom=40),
+        margin=ft.margin.only(bottom=10),
         padding=10
     )
 
@@ -138,7 +141,7 @@ def main(page: ft.Page):
             spacing=10,
             alignment=ft.MainAxisAlignment.CENTER  # Centraliza o botão dentro do bloco de resposta
         ),
-        margin=ft.margin.only(bottom=40),
+        margin=ft.margin.only(bottom=10),
         padding=10,
         alignment=ft.alignment.center  # Centraliza o contêiner no espaço horizontal
     )
