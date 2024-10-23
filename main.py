@@ -34,8 +34,8 @@ def main(page: ft.Page):
         
         if empresa == "LOJA 01 - MATRIZ":
             filtro_setor_empresa1.options = [
-                ft.dropdown.Option("CD - Setor 05"),
-                ft.dropdown.Option("CD - Setor 11"),
+                ft.dropdown.Option("Setor 05 - ESTOQUE CD"),
+                ft.dropdown.Option("Setor 11 - ESTOQUE CD TINTAS"),
                 ft.dropdown.Option('Setor 01 - PRINCIPAL LOJA 01'),
                 ft.dropdown.Option('Setor 03 - ESTOQUE LOJA 01'),
                 ft.dropdown.Option("Setor 04 - ESTOQUE TINTAS LOJA 01"),
@@ -61,14 +61,6 @@ def main(page: ft.Page):
     # Criando label para selecionar os dias
     label_dias = ft.Text('Selecione quantos dias para trás deseja filtrar o giro: ')
 
-    # Campo de entrada para dias
-    number_input = ft.TextField(
-        label='Selecione os dias:',
-        value='',
-        keyboard_type=ft.KeyboardType.NUMBER,
-        on_change=lambda e: validate_input(e.control)
-    )
-
     # Função para validar a entrada no campo de texto
     def validate_input(control):
         try:
@@ -77,6 +69,16 @@ def main(page: ft.Page):
             control.error_text = ""
         except ValueError:
             control.error_text = "Por favor, insira um número inteiro."
+
+    # Novo dropdown para selecionar o tipo de giro (30, 60, 90 dias)
+    label_giro = ft.Text('Selecione o tipo de giro para filtrar:')
+    filtro_giro = ft.Dropdown(
+        options=[
+            ft.dropdown.Option("giro_30"),
+            ft.dropdown.Option("giro_60"),
+            ft.dropdown.Option("giro_90")
+        ]
+    )
 
     valor_banco = ft.TextField(
         label="Valor do Banco de Dados", 
@@ -93,16 +95,17 @@ def main(page: ft.Page):
             with open('db.json', 'r') as db:
                 dados_do_banco = json.load(db)  # Carrega os dados do JSON
 
-            # Obter os valores selecionados de empresa e setor
+            # Obter os valores selecionados de empresa, setor e giro
             empresa_selecionada = filtro_empresa.value
             setor_selecionado = filtro_setor_empresa1.value
+            tipo_giro = filtro_giro.value  # Pega o tipo de giro selecionado (30, 60 ou 90 dias)
             dias = int(number_input.value) if number_input.value else 0
 
-            # Filtrar os dados com base na empresa, setor e giro dentro do intervalo de dias
+            # Filtrar os dados com base na empresa, setor e giro
             dados_filtrados = [
                 item for item in dados_do_banco["Produtos dbo"]
                 if item.get("empresa") == empresa_selecionada and item.get("setor") == setor_selecionado
-                and (dias == 0 or item.get(f"giro_{dias}", 0) > 0)
+                and (dias == 0 or item.get(tipo_giro, 0) >= dias)
             ]
 
             # Verifica se encontrou resultados
@@ -138,9 +141,10 @@ def main(page: ft.Page):
         ),
     )
 
-    container_dias = ft.Container(
+
+    container_giro = ft.Container(
         content=ft.Column(
-            [label_dias, number_input],
+            [label_giro, filtro_giro],
             spacing=10
         ),
     )
@@ -162,7 +166,7 @@ def main(page: ft.Page):
             [
                 container_empresa,
                 container_setor,
-                container_dias,
+                container_giro,
                 container_resposta
             ],
             alignment=ft.MainAxisAlignment.CENTER,  # Centraliza verticalmente os itens
