@@ -35,6 +35,7 @@ def main(page: ft.Page):
         if empresa == "LOJA 01 - MATRIZ":
             filtro_setor_empresa1.options = [
                 ft.dropdown.Option("Setor 05 - ESTOQUE CD"),
+                ft.dropdown.Option("CD - Setor 05"),
                 ft.dropdown.Option("Setor 11 - ESTOQUE CD TINTAS"),
                 ft.dropdown.Option('Setor 01 - PRINCIPAL LOJA 01'),
                 ft.dropdown.Option('Setor 03 - ESTOQUE LOJA 01'),
@@ -60,6 +61,14 @@ def main(page: ft.Page):
 
     # Criando label para selecionar os dias
     label_dias = ft.Text('Selecione quantos dias para trás deseja filtrar o giro: ')
+
+    # Campo de entrada para dias
+    number_input = ft.TextField(
+        label='Selecione os dias:',
+        value='',
+        keyboard_type=ft.KeyboardType.NUMBER,
+        on_change=lambda e: validate_input(e.control)
+    )
 
     # Função para validar a entrada no campo de texto
     def validate_input(control):
@@ -89,6 +98,7 @@ def main(page: ft.Page):
     )
 
     # Função para carregar os dados do arquivo JSON e filtrá-los
+    # Função para carregar os dados do arquivo JSON e filtrá-los
     def carregar_dados(e):
         try:
             # Abrindo e lendo o arquivo JSON
@@ -99,29 +109,44 @@ def main(page: ft.Page):
             empresa_selecionada = filtro_empresa.value
             setor_selecionado = filtro_setor_empresa1.value
             tipo_giro = filtro_giro.value  # Pega o tipo de giro selecionado (30, 60 ou 90 dias)
-            dias = int(number_input.value) if number_input.value else 0
 
             # Filtrar os dados com base na empresa, setor e giro
             dados_filtrados = [
                 item for item in dados_do_banco["Produtos dbo"]
                 if item.get("empresa") == empresa_selecionada and item.get("setor") == setor_selecionado
-                and (dias == 0 or item.get(tipo_giro, 0) >= dias)
             ]
 
+            # Ordenar os dados filtrados pelo valor do giro selecionado, do maior para o menor
+            dados_filtrados_ordenados = sorted(dados_filtrados, key=lambda x: x.get(tipo_giro, 0), reverse=True)
+
             # Verifica se encontrou resultados
-            if dados_filtrados:
-                # Convertendo os dados filtrados para string formatada
-                dados_formatados = json.dumps(dados_filtrados, indent=4, ensure_ascii=False)
+            if dados_filtrados_ordenados:
+                # Criar uma lista apenas com os campos desejados
+                dados_formatados = [
+                    {
+                        "codigo_produto": item["codigo_produto"],
+                        "Marca": item["Marca"],
+                        "giro_30": item.get("giro_30", 0),
+                        "giro_60": item.get("giro_60", 0),
+                        "giro_90": item.get("giro_90", 0),
+                        "desc_local": item["desc_local"]
+                    }
+                    for item in dados_filtrados_ordenados
+                ]
+                
+                # Convertendo os dados filtrados e formatados para string
+                dados_formatados_str = json.dumps(dados_formatados, indent=4, ensure_ascii=False)
             else:
-                dados_formatados = "Nenhum dado encontrado para os filtros selecionados."
+                dados_formatados_str = "Nenhum dado encontrado para os filtros selecionados."
 
             # Atualiza o campo de texto com os dados filtrados
-            valor_banco.value = dados_formatados
+            valor_banco.value = dados_formatados_str
             valor_banco.update()
 
         except Exception as ex:
             valor_banco.value = f"Erro ao carregar dados: {str(ex)}"
             valor_banco.update()
+
 
     # Botão para carregar os dados do banco de dados
     botao_carregar = ft.ElevatedButton("Carregar Dados", on_click=carregar_dados)
@@ -140,7 +165,6 @@ def main(page: ft.Page):
             spacing=10
         ),
     )
-
 
     container_giro = ft.Container(
         content=ft.Column(
