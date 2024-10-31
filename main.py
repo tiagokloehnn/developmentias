@@ -3,19 +3,28 @@ import json
 
 def main(page: ft.Page):
     page.title = "Pesquisa de Giro"
-    
-    # Ajuste do estilo da página com fundo azul e opacidade
-    page.bgcolor = ft.colors.with_opacity(0.5, ft.colors.BLUE)
+
+    # Configura o tamanho da página como expansível
+    page.window_width = 1000
+    page.window_height = 600
+    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
+
+    # Container para imagem de fundo
+    fundo = ft.Container(
+        expand=True,
+        image_src="./logiticx.png",  # Caminho da imagem de fundo
+        image_fit=ft.ImageFit.COVER  # Ajuste a imagem para cobrir o fundo
+    )
 
     # Criando campo para pesquisar por empresa
     label_empresa = ft.Text("Selecione qual empresa que deseja pesquisar:")
     filtro_empresa = ft.Dropdown(
         options=[
-            ft.dropdown.Option("LOJA 01 - MATRIZ"),
-            ft.dropdown.Option("LOJA 02 - INDAIAL"),
-            ft.dropdown.Option("LOJA 03 - DIESEL"),
-            ft.dropdown.Option("LOJA 04 - BLUMENAU"),
+            ft.dropdown.Option("LOJA 01"),
+            ft.dropdown.Option("LOJA 02"),
+            ft.dropdown.Option("LOJA 03"),
+            ft.dropdown.Option("LOJA 04"),
         ],
         on_change=lambda e: update_setor(page, e.control.value)  # Atualiza o setor ao mudar a empresa
     )
@@ -32,28 +41,28 @@ def main(page: ft.Page):
     def update_setor(page, empresa):
         filtro_setor_empresa1.options = []  
         
-        if empresa == "LOJA 01 - MATRIZ":
+        if empresa == "LOJA 01":
             filtro_setor_empresa1.options = [
-                ft.dropdown.Option("Setor 05 - ESTOQUE CD"),
-                ft.dropdown.Option("Setor 11 - ESTOQUE CD TINTAS"),
-                ft.dropdown.Option('Setor 01 - PRINCIPAL LOJA 01'),
-                ft.dropdown.Option('Setor 03 - ESTOQUE LOJA 01'),
-                ft.dropdown.Option("Setor 04 - ESTOQUE TINTAS LOJA 01"),
+                ft.dropdown.Option("Setor 01"),
+                ft.dropdown.Option("Setor 02"),
+                ft.dropdown.Option('Setor 03'),
+                ft.dropdown.Option('Setor 04'),
+                ft.dropdown.Option("Setor 05"),
             ]
-        elif empresa == "LOJA 02 - INDAIAL":
+        elif empresa == "LOJA 02":
             filtro_setor_empresa1.options = [
-                ft.dropdown.Option('Setor 01 - PRINCIPAL LOJA 02'),
-                ft.dropdown.Option("Setor 04 - ESTOQUE TINTAS LOJA 02"),
+                ft.dropdown.Option('Setor 01'),
+                ft.dropdown.Option("Setor 02"),
             ]
-        elif empresa == "LOJA 03 - DIESEL":
+        elif empresa == "LOJA 03":
             filtro_setor_empresa1.options = [
-                ft.dropdown.Option("Setor 05 - CD LOJA 03"),
-                ft.dropdown.Option('Setor 01 - PRINCIPAL LOJA 03'),
+                ft.dropdown.Option("Setor 01"),
+                ft.dropdown.Option('Setor 02'),
             ]
-        elif empresa == "LOJA 04 - BLUMENAU":
+        elif empresa == "LOJA 04":
             filtro_setor_empresa1.options = [
-                ft.dropdown.Option('Setor 01 - PRINCIPAL LOJA 04'),
-                ft.dropdown.Option("Setor 04 - ESTOQUE TINTAS LOJA 04"),
+                ft.dropdown.Option('Setor 01'),
+                ft.dropdown.Option("Setor 02"),
             ]
 
         filtro_setor_empresa1.update()
@@ -96,7 +105,6 @@ def main(page: ft.Page):
         multiline=True
     )
 
-    # Função para carregar os dados do arquivo JSON e filtrá-los
     # Função para carregar os dados do arquivo JSON e filtrá-los
     def carregar_dados(e):
         try:
@@ -145,7 +153,6 @@ def main(page: ft.Page):
         except Exception as ex:
             valor_banco.value = f"Erro ao carregar dados: {str(ex)}"
             valor_banco.update()
-
 
     # Botão para carregar os dados do banco de dados
     botao_carregar = ft.ElevatedButton("Carregar Dados", on_click=carregar_dados)
@@ -199,8 +206,8 @@ def main(page: ft.Page):
         alignment=ft.alignment.center,  # Centraliza o contêiner na página
     )
 
-    # Adicionando o contêiner principal à página
-    page.add(container_principal)
+    # Adicionando o container de fundo e os elementos da página
+    page.add(fundo, container_principal)
 
 # Executa a aplicação
 ft.app(target=main)
