@@ -5,8 +5,8 @@ def main(page: ft.Page):
     page.title = "Pesquisa de Giro"
 
     # Configura o tamanho da página como expansível
-    page.window_width = 1000
-    page.window_height = 600
+    page.window_width = 800
+    page.window_height = 900
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
 
