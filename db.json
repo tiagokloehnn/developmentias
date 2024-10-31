@@ -7,10 +7,9 @@
             "giro_30":19,
             "giro_60":47,   
             "giro_90":6,
-            "codigo_local":"010199001",
             "desc_local":"R01A01",
-            "empresa":"Filial A",
-            "setor":"Setor 05"
+            "empresa":"LOJA 01",
+            "setor":"Setor 01"
         },
         {
             "ID":2,
