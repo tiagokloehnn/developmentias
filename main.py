@@ -2,18 +2,25 @@ import flet as ft
 import json
 
 def main(page: ft.Page):
-    page.title = "Pesquisa de Giro"
     page.window_width = 800
     page.window_height = 900
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
 
-    # Container para imagem de fundo
-    fundo = ft.Container(
-        expand=True,
-        image_src="./logiticx.png",  # Caminho da imagem de fundo
-        image_fit=ft.ImageFit.COVER  # Ajuste a imagem para cobrir o fundo
+    page.appbar = ft.AppBar(
+        leading_width= 30,
+        title= ft.Text('FILTRO DE PRODUTOS POR GIRO'),
+        center_title= True,
+        bgcolor= ft.colors.ON_PRIMARY,
     )
+
+    # Imagem de fundo 
+    img = ft.Image(
+        src=f'./logiticx.png',
+        width= 400,
+        height= 150,
+    )
+
 
     # Criando campo para pesquisar por empresa
     label_empresa = ft.Text("Selecione qual empresa que deseja pesquisar:")
@@ -59,16 +66,6 @@ def main(page: ft.Page):
             ]
 
         filtro_setor_empresa1.update()
-
-    label_dias = ft.Text('Selecione quantos dias para trás deseja filtrar o giro: ')
-
-    number_input = ft.TextField(
-        label='Selecione os dias:',
-        value='',
-        keyboard_type=ft.KeyboardType.NUMBER,
-        on_change=lambda e: validate_input(e.control)
-    )
-
     def validate_input(control):
         try:
             if control.value != "":
@@ -142,7 +139,7 @@ def main(page: ft.Page):
             [label_empresa, filtro_empresa],
             spacing=10
         ),
-        bgcolor=ft.colors.BLUE_100  # Fundo azul claro para o container de empresa
+        # bgcolor=ft.colors.BLUE_100  # Fundo azul claro para o container de empresa
     )
 
     container_setor = ft.Container(
@@ -150,7 +147,7 @@ def main(page: ft.Page):
             [label_setor, filtro_setor_empresa1],
             spacing=10
         ),
-        bgcolor=ft.colors.GREEN_100  # Fundo verde claro para o container de setor
+        # bgcolor=ft.colors.GREEN_100  # Fundo verde claro para o container de setor
     )
 
     container_giro = ft.Container(
@@ -158,7 +155,7 @@ def main(page: ft.Page):
             [label_giro, filtro_giro],
             spacing=10
         ),
-        bgcolor=ft.colors.YELLOW_100  # Fundo amarelo claro para o container de giro
+        # bgcolor=ft.colors.YELLOW_100  # Fundo amarelo claro para o container de giro
     )
 
     container_resposta = ft.Container(
@@ -170,7 +167,7 @@ def main(page: ft.Page):
         margin=ft.margin.only(bottom=10),
         padding=10,
         alignment=ft.alignment.center,
-        bgcolor=ft.colors.GREY_100  # Fundo cinza claro para o container de resposta
+        # bgcolor=ft.colors.GREY_200  # Fundo cinza claro para o container de resposta
     )
 
     container_principal = ft.Container(
@@ -188,6 +185,6 @@ def main(page: ft.Page):
         alignment=ft.alignment.center,
     )
 
-    page.add(fundo, container_principal)
+    page.add(img, container_principal)
 
 ft.app(target=main)
