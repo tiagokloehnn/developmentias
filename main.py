@@ -8,19 +8,17 @@ def main(page: ft.Page):
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
 
     page.appbar = ft.AppBar(
-        leading_width= 30,
-        title= ft.Text('FILTRO DE PRODUTOS POR GIRO'),
-        center_title= True,
-        bgcolor= ft.colors.ON_PRIMARY,
+        leading_width=30,
+        title=ft.Text('FILTRO DE PRODUTOS POR GIRO'),
+        center_title=True,
+        bgcolor=ft.colors.ON_PRIMARY,
     )
 
-    # Imagem de fundo 
     img = ft.Image(
         src=f'./logiticx.png',
-        width= 400,
-        height= 150,
+        width=400,
+        height=150,
     )
-
 
     # Criando campo para pesquisar por empresa
     label_empresa = ft.Text("Selecione qual empresa que deseja pesquisar:")
@@ -34,13 +32,36 @@ def main(page: ft.Page):
         on_change=lambda e: update_setor(page, e.control.value)  # Atualiza o setor ao mudar a empresa
     )
 
-    filtro_setor_empresa1 = ft.Dropdown(options=[])
+    filtro_setor_empresa1 = ft.Dropdown(
+        options=[],
+        on_change=lambda e: enable_dias_dropdown()  # Habilita o campo de dias quando um setor é selecionado
+    )
 
     label_setor = ft.Text('Selecione o setor que você deseja filtrar: ')
 
+    # Campo de seleção de dias inicialmente desabilitado
+    label_giro = ft.Text('Selecione o tipo de giro para filtrar:')
+    filtro_giro = ft.Dropdown(
+        options=[
+            ft.dropdown.Option("giro_30"),
+            ft.dropdown.Option("giro_60"),
+            ft.dropdown.Option("giro_90")
+        ],
+        disabled=True  # Inicialmente desabilitado
+    )
+
+    # Função para habilitar o dropdown de giro após seleção de setor
+    def enable_dias_dropdown():
+        if filtro_setor_empresa1.value:  # Verifica se um setor está selecionado
+            filtro_giro.disabled = False  # Habilita o dropdown de dias
+        else:
+            filtro_giro.disabled = True  # Mantém desabilitado se o setor não estiver selecionado
+        filtro_giro.update()  # Atualiza a interface
+
+    # Função para atualizar as opções do setor
     def update_setor(page, empresa):
-        filtro_setor_empresa1.options = []  
-        
+        filtro_setor_empresa1.options = []
+
         if empresa == "LOJA 01":
             filtro_setor_empresa1.options = [
                 ft.dropdown.Option("Setor 01"),
@@ -66,22 +87,6 @@ def main(page: ft.Page):
             ]
 
         filtro_setor_empresa1.update()
-    def validate_input(control):
-        try:
-            if control.value != "":
-                int(control.value)
-            control.error_text = ""
-        except ValueError:
-            control.error_text = "Por favor, insira um número inteiro."
-
-    label_giro = ft.Text('Selecione o tipo de giro para filtrar:')
-    filtro_giro = ft.Dropdown(
-        options=[
-            ft.dropdown.Option("giro_30"),
-            ft.dropdown.Option("giro_60"),
-            ft.dropdown.Option("giro_90")
-        ]
-    )
 
     valor_banco = ft.TextField(
         label="Valor do Banco de Dados", 
@@ -133,41 +138,15 @@ def main(page: ft.Page):
 
     botao_carregar = ft.ElevatedButton("Carregar Dados", on_click=carregar_dados)
 
-    # Criando containers para cada bloco de seleção e resposta com fundo de cor específica
-    container_empresa = ft.Container(
-        content=ft.Column(
-            [label_empresa, filtro_empresa],
-            spacing=10
-        ),
-        # bgcolor=ft.colors.BLUE_100  # Fundo azul claro para o container de empresa
-    )
-
-    container_setor = ft.Container(
-        content=ft.Column(
-            [label_setor, filtro_setor_empresa1],
-            spacing=10
-        ),
-        # bgcolor=ft.colors.GREEN_100  # Fundo verde claro para o container de setor
-    )
-
-    container_giro = ft.Container(
-        content=ft.Column(
-            [label_giro, filtro_giro],
-            spacing=10
-        ),
-        # bgcolor=ft.colors.YELLOW_100  # Fundo amarelo claro para o container de giro
-    )
-
+    # Containers
+    container_empresa = ft.Container(content=ft.Column([label_empresa, filtro_empresa], spacing=10))
+    container_setor = ft.Container(content=ft.Column([label_setor, filtro_setor_empresa1], spacing=10))
+    container_giro = ft.Container(content=ft.Column([label_giro, filtro_giro], spacing=10))
     container_resposta = ft.Container(
-        content=ft.Column(
-            [valor_banco, botao_carregar],
-            spacing=10,
-            alignment=ft.MainAxisAlignment.CENTER
-        ),
+        content=ft.Column([valor_banco, botao_carregar], spacing=10, alignment=ft.MainAxisAlignment.CENTER),
         margin=ft.margin.only(bottom=10),
         padding=10,
         alignment=ft.alignment.center,
-        # bgcolor=ft.colors.GREY_200  # Fundo cinza claro para o container de resposta
     )
 
     container_principal = ft.Container(
