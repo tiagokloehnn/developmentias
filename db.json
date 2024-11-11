@@ -7,6 +7,7 @@
             "giro_30":19,
             "giro_60":47,   
             "giro_90":6,
+            "codigo_local":"0101002",
             "desc_local":"R01A01",
             "empresa":"LOJA 01",
             "setor":"Setor 01"
@@ -18,7 +19,7 @@
             "giro_30":12, 
             "giro_60":22,
             "giro_90":23,
-            "codigo_local":"010199002",
+            "codigo_local":"0101002",
             "desc_local":"R01A02",
             "empresa":"LOJA 01",
             "setor":"Setor 01"
@@ -30,7 +31,7 @@
             "giro_30":7,
             "giro_60":30,
             "giro_90":47,
-            "codigo_local":"05010199003",
+            "codigo_local":"0501003",
             "desc_local":"R01A03",
             "empresa":"LOJA 01",
             "setor":"Setor 01"
@@ -42,7 +43,7 @@
             "giro_30":8,
             "giro_60":14,
             "giro_90":43,
-            "codigo_local":"01019904",
+            "codigo_local":"010104",
             "desc_local":"R01A04",
             "empresa":"LOJA 01",
             "setor":"Setor 01"
@@ -54,7 +55,7 @@
             "giro_30":8,
             "giro_60":37,
             "giro_90":2,
-            "codigo_local":"05010199005",
+            "codigo_local":"0501005",
             "desc_local":"R01A05",
             "empresa":"LOJA 01",
             "setor":"Setor 01"
@@ -66,7 +67,7 @@
             "giro_30":1,
             "giro_60":13,
             "giro_90":38,
-            "codigo_local":"010199006",
+            "codigo_local":"0101006",
             "desc_local":"R01A006",
             "empresa":"LOJA 01",
             "setor":"Setor 01"
@@ -78,7 +79,7 @@
             "giro_30":39,
             "giro_60":41,
             "giro_90":20,
-            "codigo_local":"010199007",
+            "codigo_local":"0101007",
             "desc_local":"R01A07",
             "empresa":"LOJA 01",
             "setor":"Setor 01"
@@ -90,7 +91,7 @@
             "giro_30":25,
             "giro_60":46,
             "giro_90":39,
-            "codigo_local":"010199008",
+            "codigo_local":"0101008",
             "desc_local":"R01A08",
             "empresa":"LOJA 01",
             "setor":"Setor 01"
@@ -102,7 +103,7 @@
             "giro_30":33,
             "giro_60":38,
             "giro_90":19,
-            "codigo_local":"05010199009",
+            "codigo_local":"0501009",
             "desc_local":"R01A09",
             "empresa":"LOJA 01",
             "setor":"Setor 01"
@@ -114,7 +115,7 @@
             "giro_30":7,
             "giro_60":32,
             "giro_90":36,
-            "codigo_local":"05010199010",
+            "codigo_local":"0501010",
             "desc_local":"R01A010",
             "empresa":"LOJA 01",
             "setor":"Setor 01"
@@ -126,7 +127,7 @@
             "giro_30":25,
             "giro_60":7,
             "giro_90":25,
-            "codigo_local":"11010199011",
+            "codigo_local":"1101011",
             "desc_local":"R01A011",
             "empresa":"LOJA 01",
             "setor":"Setor 02"
@@ -138,7 +139,7 @@
             "giro_30":12,
             "giro_60":25,
             "giro_90":32,
-            "codigo_local":"11010199012",
+            "codigo_local":"1101012",
             "desc_local":"R01A012",
             "empresa":"LOJA 01",
             "setor":"Setor 02"
@@ -150,7 +151,7 @@
             "giro_30":1,
             "giro_60":10,
             "giro_90":33,
-            "codigo_local":"11010199013",
+            "codigo_local":"1101013",
             "desc_local":"R01A013",
             "empresa":"LOJA 01",
             "setor":"Setor 02"
@@ -162,7 +163,7 @@
             "giro_30":3,
             "giro_60":36,
             "giro_90":45,
-            "codigo_local":"11010199014",
+            "codigo_local":"1101014",
             "desc_local":"R01A014",
             "empresa":"LOJA 01",
             "setor":"Setor 02"
@@ -174,7 +175,7 @@
             "giro_30":21,
             "giro_60":13,
             "giro_90":46,
-            "codigo_local":"11010199015",
+            "codigo_local":"1101015",
             "desc_local":"R01A015",
             "empresa":"LOJA 01",
             "setor":"Setor 02"
@@ -186,7 +187,7 @@
             "giro_30":11,
             "giro_60":30,
             "giro_90":34,
-            "codigo_local":"11010199016",
+            "codigo_local":"1101016",
             "desc_local":"R01A016",
             "empresa":"LOJA 01",
             "setor":"Setor 02"
@@ -198,7 +199,7 @@
             "giro_30":48,
             "giro_60":42,
             "giro_90":26,
-            "codigo_local":"11010199017",
+            "codigo_local":"1101017",
             "desc_local":"R01A017",
             "empresa":"LOJA 01",
             "setor":"Setor 02"
@@ -210,7 +211,7 @@
             "giro_30":30,
             "giro_60":35,
             "giro_90":3,
-            "codigo_local":"11010199018",
+            "codigo_local":"1101018",
             "desc_local":"11R01A018",
             "empresa":"LOJA 01",
             "setor":"Setor 02"
@@ -222,7 +223,7 @@
             "giro_30":49,
             "giro_60":23,
             "giro_90":39,
-            "codigo_local":"11010199019",
+            "codigo_local":"1101019",
             "desc_local":"R01A019",
             "empresa":"LOJA 01",
             "setor":"Setor 02"
@@ -234,7 +235,7 @@
             "giro_30":24,
             "giro_60":11,
             "giro_90":9,
-            "codigo_local":"11010199020",
+            "codigo_local":"1101020",
             "desc_local":"R01A020",
             "empresa":"LOJA 01",
             "setor":"Setor 02"
@@ -246,7 +247,7 @@
             "giro_30":1,
             "giro_60":2,
             "giro_90":28,
-            "codigo_local":"01010199021",
+            "codigo_local":"0101021",
             "desc_local":"R01A021",
             "empresa":"LOJA 01",
             "setor":"Setor 03"
@@ -258,7 +259,7 @@
             "giro_30":31,
             "giro_60":2,
             "giro_90":7,
-            "codigo_local":"01010199022",
+            "codigo_local":"0101022",
             "desc_local":"R01A022",
             "empresa":"LOJA 01",
             "setor":"Setor 03"
@@ -270,7 +271,7 @@
             "giro_30":39,
             "giro_60":39,
             "giro_90":47,
-            "codigo_local":"01010199023",
+            "codigo_local":"0101023",
             "desc_local":"R01A023",
             "empresa":"LOJA 01",
             "setor":"Setor 03"
@@ -282,7 +283,7 @@
             "giro_30":15,
             "giro_60":50,
             "giro_90":18,
-            "codigo_local":"01010199024",
+            "codigo_local":"0101024",
             "desc_local":"R01A024",
             "empresa":"LOJA 01",
             "setor":"Setor 03"
@@ -294,7 +295,7 @@
             "giro_30":5,
             "giro_60":38,
             "giro_90":16,
-            "codigo_local":"01010199025",
+            "codigo_local":"0101025",
             "desc_local":"R01A025",
             "empresa":"LOJA 01",
             "setor":"Setor 03"
@@ -306,7 +307,7 @@
             "giro_30":4,
             "giro_60":31,
             "giro_90":20,
-            "codigo_local":"01010199026",
+            "codigo_local":"0101026",
             "desc_local":"R01A026",
             "empresa":"LOJA 01",
             "setor":"Setor 03"
@@ -318,7 +319,7 @@
             "giro_30":37,
             "giro_60":48,
             "giro_90":20,
-            "codigo_local":"01010199027",
+            "codigo_local":"0101027",
             "desc_local":"R01A027",
             "empresa":"LOJA 01",
             "setor":"Setor 03"
@@ -330,7 +331,7 @@
             "giro_30":21,
             "giro_60":18,
             "giro_90":34,
-            "codigo_local":"01010199028",
+            "codigo_local":"0101028",
             "desc_local":"R01A028",
             "empresa":"LOJA 01",
             "setor":"Setor 03"
@@ -342,7 +343,7 @@
             "giro_30":25,
             "giro_60":19,
             "giro_90":36,
-            "codigo_local":"01010199029",
+            "codigo_local":"0101029",
             "desc_local":"R01A029",
             "empresa":"LOJA 01",
             "setor":"Setor 03"
@@ -354,7 +355,7 @@
             "giro_30":27,
             "giro_60":29,
             "giro_90":35,
-            "codigo_local":"01010199030",
+            "codigo_local":"0101030",
             "desc_local":"R01A030",
             "empresa":"LOJA 01",
             "setor":"Setor 03"
@@ -366,7 +367,7 @@
             "giro_30":10,
             "giro_60":48,
             "giro_90":22,
-            "codigo_local":"03010199031",
+            "codigo_local":"0301031",
             "desc_local":"R01A031",
             "empresa":"LOJA 01",
             "setor":"Setor 04"
@@ -378,7 +379,7 @@
             "giro_30":49,
             "giro_60":45,
             "giro_90":47,
-            "codigo_local":"03010199032",
+            "codigo_local":"0301032",
             "desc_local":"R01A032",
             "empresa":"LOJA 01",
             "setor":"Setor 04"
@@ -390,7 +391,7 @@
             "giro_30":16,
             "giro_60":31,
             "giro_90":14,
-            "codigo_local":"03010199033",
+            "codigo_local":"0301033",
             "desc_local":"R01A033",
             "empresa":"LOJA 01",
             "setor":"Setor 04"
@@ -402,7 +403,7 @@
             "giro_30":26,
             "giro_60":37,
             "giro_90":14,
-            "codigo_local":"03010199034",
+            "codigo_local":"0301034",
             "desc_local":"R01A034",
             "empresa":"LOJA 01",
             "setor":"Setor 04"
@@ -414,7 +415,7 @@
             "giro_30":29,
             "giro_60":28,
             "giro_90":34,
-            "codigo_local":"03010199035",
+            "codigo_local":"0301035",
             "desc_local":"R01A035",
             "empresa":"LOJA 01",
             "setor":"Setor 04"
@@ -426,7 +427,7 @@
             "giro_30":13,
             "giro_60":43,
             "giro_90":49,
-            "codigo_local":"03010199036",
+            "codigo_local":"0301036",
             "desc_local":"R01A036",
             "empresa":"LOJA 01",
             "setor":"Setor 04"
@@ -438,7 +439,7 @@
             "giro_30":2,
             "giro_60":31,
             "giro_90":21,
-            "codigo_local":"03010199037",
+            "codigo_local":"0301037",
             "desc_local":"03R01A037",
             "empresa":"LOJA 01",
             "setor":"Setor 04"
@@ -450,7 +451,7 @@
             "giro_30":5,
             "giro_60":37,
             "giro_90":16,
-            "codigo_local":"03010199038",
+            "codigo_local":"0301038",
             "desc_local":"03R01A038",
             "empresa":"LOJA 01",
             "setor":"Setor 04"
@@ -462,7 +463,7 @@
             "giro_30":23,
             "giro_60":18,
             "giro_90":8,
-            "codigo_local":"03010199039",
+            "codigo_local":"0301039",
             "desc_local":"R01A039",
             "empresa":"LOJA 01",
             "setor":"Setor 04"
@@ -474,7 +475,7 @@
             "giro_30":32,
             "giro_60":46,
             "giro_90":42,
-            "codigo_local":"03010199040",
+            "codigo_local":"0301040",
             "desc_local":"R01A040",
             "empresa":"LOJA 01",
             "setor":"Setor 04"
@@ -486,7 +487,7 @@
             "giro_30":36,
             "giro_60":7,
             "giro_90":11,
-            "codigo_local":"02015699041",
+            "codigo_local":"0256041",
             "desc_local":"R56A041",
             "empresa":"LOJA 01",
             "setor":"Setor 05"    
@@ -498,7 +499,7 @@
             "giro_30":14,
             "giro_60":2,
             "giro_90":50,
-            "codigo_local":"02015699042",
+            "codigo_local":"0256042",
             "desc_local":"R56A042",
             "empresa":"LOJA 01",
             "setor":"Setor 05"
@@ -510,7 +511,7 @@
             "giro_30":11,
             "giro_60":33,
             "giro_90":32,
-            "codigo_local":"02015699043",
+            "codigo_local":"0256043",
             "desc_local":"R56A043",
             "empresa":"LOJA 01",
             "setor":"Setor 05"
@@ -522,7 +523,7 @@
             "giro_30":24,
             "giro_60":42,
             "giro_90":9,
-            "codigo_local":"02015699044",
+            "codigo_local":"0256044",
             "desc_local":"R56A044",
             "empresa":"LOJA 01",
             "setor":"Setor 05"
@@ -534,7 +535,7 @@
             "giro_30":31,
             "giro_60":44,
             "giro_90":24,
-            "codigo_local":"02015699045",
+            "codigo_local":"0256045",
             "desc_local":"R56A045",
             "empresa":"LOJA 01",
             "setor":"Setor 05"
@@ -546,7 +547,7 @@
             "giro_30":3,
             "giro_60":21,
             "giro_90":10,
-            "codigo_local":"02015699046",
+            "codigo_local":"0256046",
             "desc_local":"R56A046",
             "empresa":"LOJA 01",
             "setor":"Setor 05"
@@ -558,7 +559,7 @@
             "giro_30":34,
             "giro_60":47,
             "giro_90":15,
-            "codigo_local":"02015699047",
+            "codigo_local":"0256047",
             "desc_local":"R56A047",
             "empresa":"LOJA 01",
             "setor":"Setor 05"
@@ -570,7 +571,7 @@
             "giro_30":40,
             "giro_60":42,
             "giro_90":30,
-            "codigo_local":"02015699048",
+            "codigo_local":"0256048",
             "desc_local":"R56A048",
             "empresa":"LOJA 01",
             "setor":"Setor 05"
@@ -582,7 +583,7 @@
             "giro_30":44,
             "giro_60":16,
             "giro_90":19,
-            "codigo_local":"02015699049",
+            "codigo_local":"0256049",
             "desc_local":"R56A049",
             "empresa":"LOJA 01",
             "setor":"Setor 05"
@@ -594,7 +595,7 @@
             "giro_30":18,
             "giro_60":26,
             "giro_90":19,
-            "codigo_local":"02015699050",
+            "codigo_local":"0256050",
             "desc_local":"R56A050",
             "empresa":"LOJA 01",
             "setor":"Setor 05"
@@ -606,7 +607,7 @@
             "giro_30":10,
             "giro_60":8,
             "giro_90":33,
-            "codigo_local":"020199051",
+            "codigo_local":"0201051",
             "desc_local":"R01A051",
             "empresa":"LOJA 01",
             "setor":"Setor 05"
@@ -618,7 +619,7 @@
             "giro_30":20,
             "giro_60":38,
             "giro_90":2,
-            "codigo_local":"02011299052",
+            "codigo_local":"0212052",
             "desc_local":"R12A052",
             "empresa":"LOJA 02",
             "setor":"Setor 1"
@@ -631,7 +632,7 @@
             "giro_30":40,
             "giro_60":10,
             "giro_90":36,
-            "codigo_local":"02011299053",
+            "codigo_local":"0212053",
             "desc_local":"R12A053",
             "empresa":"LOJA 02",
             "setor":"Setor 1"
@@ -643,7 +644,7 @@
             "giro_30":16,
             "giro_60":16,
             "giro_90":10,
-            "codigo_local":"02011299054",
+            "codigo_local":"0212054",
             "desc_local":"02R12A054",
             "empresa":"LOJA 02",
             "setor":"Setor 1"
@@ -655,7 +656,7 @@
             "giro_30":8,
             "giro_60":20,
             "giro_90":12,
-            "codigo_local":"02011299055",
+            "codigo_local":"0212055",
             "desc_local":"R12A055",
             "empresa":"LOJA 02",
             "setor":"Setor 1"
@@ -667,7 +668,7 @@
             "giro_30":2,
             "giro_60":14,
             "giro_90":50,
-            "codigo_local":"02011299056",
+            "codigo_local":"0212056",
             "desc_local":"R12A056",
             "empresa":"LOJA 02",
             "setor":"Setor 1"
@@ -679,7 +680,7 @@
             "giro_30":35,
             "giro_60":3,
             "giro_90":9,
-            "codigo_local":"02011299057",
+            "codigo_local":"0212057",
             "desc_local":"R12A057",
             "empresa":"LOJA 02",
             "setor":"Setor 1"
@@ -691,7 +692,7 @@
             "giro_30":40,
             "giro_60":6,
             "giro_90":29,
-            "codigo_local":"02011299058",
+            "codigo_local":"0212058",
             "desc_local":"R12A058",
             "empresa":"LOJA 02",
             "setor":"Setor 1"
@@ -703,7 +704,7 @@
         "giro_30": 44,
         "giro_60": 10,
         "giro_90": 14,
-        "codigo_local": "02011299060",
+        "codigo_local": "0212060",
         "desc_local": "R12A060",
         "empresa":"LOJA 02",
         "setor":"Setor 1"
@@ -715,7 +716,7 @@
         "giro_30": 41,
         "giro_60": 9,
         "giro_90": 26,
-        "codigo_local": "02011699061",
+        "codigo_local": "0216061",
         "desc_local": "R16A061",
         "empresa":"LOJA 02",
         "setor":"Setor 2"
@@ -727,7 +728,7 @@
         "giro_30": 33,
         "giro_60": 32,
         "giro_90": 33,
-        "codigo_local": "02011699062",
+        "codigo_local": "0216062",
         "desc_local": "R16A062",
         "empresa":"LOJA 02",
         "setor":"Setor 2"
@@ -739,7 +740,7 @@
         "giro_30": 20,
         "giro_60": 32,
         "giro_90": 41,
-        "codigo_local": "02011699063",
+        "codigo_local": "0216063",
         "desc_local": "R16A063",
         "empresa":"LOJA 02",
         "setor":"Setor 2"
@@ -751,7 +752,7 @@
         "giro_30": 23,
         "giro_60": 31,
         "giro_90": 22,
-        "codigo_local": "02011699064",
+        "codigo_local": "0216064",
         "desc_local": "R16A064",
         "empresa":"LOJA 02",
         "setor":"Setor 2"
@@ -763,7 +764,7 @@
         "giro_30": 19,
         "giro_60": 50,
         "giro_90": 14,
-        "codigo_local": "02011699065",
+        "codigo_local": "0216065",
         "desc_local": "R16A065",
         "empresa":"LOJA 02",
         "setor":"Setor 2"
@@ -775,7 +776,7 @@
         "giro_30": 11,
         "giro_60": 29,
         "giro_90": 22,
-        "codigo_local": "02011699066",
+        "codigo_local": "0216066",
         "desc_local": "R16A066",
         "empresa":"LOJA 02",
         "setor":"Setor 2"
@@ -787,7 +788,7 @@
         "giro_30": 17,
         "giro_60": 14,
         "giro_90": 21,
-        "codigo_local": "02011699067",
+        "codigo_local": "0216067",
         "desc_local": "R16A067",
         "empresa":"LOJA 02",
         "setor":"Setor 2"
@@ -799,7 +800,7 @@
         "giro_30": 35,
         "giro_60": 35,
         "giro_90": 30,
-        "codigo_local": "02011699068",
+        "codigo_local": "0216068",
         "desc_local": "R16A068",
         "empresa":"LOJA 02",
         "setor":"Setor 2"
@@ -811,7 +812,7 @@
         "giro_30": 20,
         "giro_60": 24,
         "giro_90": 12,
-        "codigo_local": "02011699069",
+        "codigo_local": "0216069",
         "desc_local": "R16A069",
         "empresa":"LOJA 02",
         "setor":"Setor 2"
@@ -823,7 +824,7 @@
         "giro_30": 17,
         "giro_60": 26,
         "giro_90": 25,
-        "codigo_local": "02011699070",
+        "codigo_local": "0216070",
         "desc_local": "R16A070",
         "empresa":"LOJA 02",
         "setor":"Setor 2"
@@ -835,7 +836,7 @@
         "giro_30": 49,
         "giro_60": 34,
         "giro_90": 6,
-        "codigo_local": "02012399071",
+        "codigo_local": "0223071",
         "desc_local": "R23A071",
         "empresa":"LOJA 03",
         "setor":"Setor 01"
@@ -848,8 +849,7 @@
         "giro_60": 24,
         "giro_90": 32,
         "giro_medio": 19.0,
-        "codigo_local": "02012399072",
-        "codigo_local_2": "02012399072",
+        "codigo_local": "0223072",
         "desc_local": "02R23A072",
         "empresa":"LOJA 03",
         "setor":"Setor 01"
@@ -861,7 +861,7 @@
         "giro_30": 44,
         "giro_60": 2,
         "giro_90": 44,
-        "codigo_local": "02012399073",
+        "codigo_local": "0223073",
         "desc_local": "R23A073",
         "empresa":"LOJA 03",
         "setor":"Setor 01"
@@ -873,7 +873,7 @@
         "giro_30": 11,
         "giro_60": 42,
         "giro_90": 46,
-        "codigo_local": "02012399074",
+        "codigo_local": "0223074",
         "desc_local": "R23A074",
         "empresa":"LOJA 03",
         "setor":"Setor 01"
@@ -885,7 +885,7 @@
         "giro_30": 30,
         "giro_60": 40,
         "giro_90": 48,
-        "codigo_local": "02012399075",
+        "codigo_local": "0223075",
         "desc_local": "R23A075",
         "empresa":"LOJA 03",
         "setor":"Setor 01"
@@ -897,7 +897,7 @@
         "giro_30": 45,
         "giro_60": 14,
         "giro_90": 23,
-        "codigo_local": "02012399076",
+        "codigo_local": "0223076",
         "desc_local": "R23A076",
         "empresa":"LOJA 03",
         "setor":"Setor 01"
@@ -909,7 +909,7 @@
         "giro_30": 22,
         "giro_60": 8,
         "giro_90": 39,
-        "codigo_local": "02012399077",
+        "codigo_local": "0223077",
         "desc_local": "R23A077",
         "empresa":"LOJA 03",
         "setor":"Setor 01"
@@ -921,7 +921,7 @@
         "giro_30": 8,
         "giro_60": 10,
         "giro_90": 28,
-        "codigo_local": "02012399078",
+        "codigo_local": "0223078",
         "desc_local": "R23A078",
         "empresa":"LOJA 03",
         "setor":"Setor 01"
@@ -933,7 +933,7 @@
         "giro_30": 13,
         "giro_60": 49,
         "giro_90": 40,
-        "codigo_local": "02012399079",
+        "codigo_local": "0223079",
         "desc_local": "R23A079",
         "empresa":"LOJA 03",
         "setor":"Setor 01"
@@ -945,7 +945,7 @@
         "giro_30": 36,
         "giro_60": 43,
         "giro_90": 21,
-        "codigo_local": "02012399080",
+        "codigo_local": "0223080",
         "desc_local": "R23A080",
         "empresa":"LOJA 03",
         "setor":"Setor 01"
@@ -957,7 +957,7 @@
         "giro_30": 27,
         "giro_60": 13,
         "giro_90": 17,
-        "codigo_local": "02011599081",
+        "codigo_local": "0215081",
         "desc_local": "R15A081",
         "empresa":"LOJA 03",
         "setor":"Setor 02"
@@ -969,7 +969,7 @@
         "giro_30": 42,
         "giro_60": 5,
         "giro_90": 31,
-        "codigo_local": "02011599082",
+        "codigo_local": "0215082",
         "desc_local": "R15A082",
         "empresa":"LOJA 03",
         "setor":"Setor 02"
@@ -981,7 +981,7 @@
         "giro_30": 18,
         "giro_60": 14,
         "giro_90": 21,
-        "codigo_local": "02011599083",
+        "codigo_local": "0215083",
         "desc_local": "R15A083",
         "empresa":"LOJA 03",
         "setor":"Setor 02"
@@ -993,7 +993,7 @@
         "giro_30": 40,
         "giro_60": 32,
         "giro_90": 12,
-        "codigo_local": "02011599084",
+        "codigo_local": "0215084",
         "desc_local": "R15A084",
         "empresa":"LOJA 03",
         "setor":"Setor 02"
@@ -1005,7 +1005,7 @@
         "giro_30": 15,
         "giro_60": 26,
         "giro_90": 22,
-        "codigo_local": "02011599085",
+        "codigo_local": "0215085",
         "desc_local": "R15A085",
         "empresa":"LOJA 03",
         "setor":"Setor 02"
@@ -1017,7 +1017,7 @@
         "giro_30": 24,
         "giro_60": 38,
         "giro_90": 29,
-        "codigo_local": "02011599086",
+        "codigo_local": "0215086",
         "desc_local": "R15A086",
         "empresa":"LOJA 03",
         "setor":"Setor 02"
@@ -1029,7 +1029,7 @@
         "giro_30": 39,
         "giro_60": 17,
         "giro_90": 7,
-        "codigo_local": "02011599087",
+        "codigo_local": "0215087",
         "desc_local": "R15A087",
         "empresa":"LOJA 03",
         "setor":"Setor 02"
@@ -1041,7 +1041,7 @@
         "giro_30": 7,
         "giro_60": 19,
         "giro_90": 44,
-        "codigo_local": "02011599088",
+        "codigo_local": "0215088",
         "desc_local": "R15A088",
         "empresa":"LOJA 03",
         "setor":"Setor 02"
@@ -1053,7 +1053,7 @@
         "giro_30": 47,
         "giro_60": 24,
         "giro_90": 26,
-        "codigo_local": "02011599089",
+        "codigo_local": "0215089",
         "desc_local": "R15A089",
         "empresa":"LOJA 03",
         "setor":"Setor 02"
@@ -1065,7 +1065,7 @@
         "giro_30": 33,
         "giro_60": 10,
         "giro_90": 19,
-        "codigo_local": "02011599090",
+        "codigo_local": "0215090",
         "desc_local": "R15A090",
         "empresa":"LOJA 03",
         "setor":"Setor 02"
@@ -1077,7 +1077,7 @@
         "giro_30": 12,
         "giro_60": 31,
         "giro_90": 20,
-        "codigo_local": "02014799091",
+        "codigo_local": "0247091",
         "desc_local": "R47A091",
         "empresa":"LOJA 04",
         "setor":"Setor 01"
@@ -1089,7 +1089,7 @@
         "giro_30": 14,
         "giro_60": 29,
         "giro_90": 25,
-        "codigo_local": "02014799092",
+        "codigo_local": "0247092",
         "desc_local": "R47A092",
         "empresa":"LOJA 04",
         "setor":"Setor 01"
@@ -1101,7 +1101,7 @@
         "giro_30": 25,
         "giro_60": 22,
         "giro_90": 34,
-        "codigo_local": "02014799093",
+        "codigo_local": "0247093",
         "desc_local": "R47A093",
         "empresa":"LOJA 04",
         "setor":"Setor 01"
@@ -1113,7 +1113,7 @@
         "giro_30": 37,
         "giro_60": 42,
         "giro_90": 16,
-        "codigo_local": "02014799094",
+        "codigo_local": "0247094",
         "desc_local": "R47A094",
         "empresa":"LOJA 04",
         "setor":"Setor 01"
@@ -1125,7 +1125,7 @@
         "giro_30": 8,
         "giro_60": 21,
         "giro_90": 38,
-        "codigo_local": "02014799095",
+        "codigo_local": "0247095",
         "desc_local": "R47A095",
         "empresa":"LOJA 04",
         "setor":"Setor 01"
@@ -1137,7 +1137,7 @@
         "giro_30": 18,
         "giro_60": 35,
         "giro_90": 9,
-        "codigo_local":"040107399096",
+        "codigo_local":"0407096",
         "desc_local": "R07A096",
         "empresa":"LOJA 04",
         "setor":"Setor 02"
@@ -1149,7 +1149,7 @@
         "giro_30": 21,
         "giro_60": 23,
         "giro_90": 45,
-        "codigo_local": "04010799097",
+        "codigo_local": "0407097",
         "desc_local": "R07A097",
         "empresa":"LOJA 04",
         "setor":"Setor 02"
@@ -1161,7 +1161,7 @@
         "giro_30": 13,
         "giro_60": 44,
         "giro_90": 15,
-        "codigo_local": "04010799098",
+        "codigo_local": "0407098",
         "desc_local": "R07A098",
         "empresa":"LOJA 04",
         "setor":"Setor 02"
@@ -1173,7 +1173,7 @@
         "giro_30": 36,
         "giro_60": 27,
         "giro_90": 41,
-        "codigo_local": "04010799099",
+        "codigo_local": "0407099",
         "desc_local": "R07A099",
         "empresa":"LOJA 04",
         "setor":"Setor 02"
@@ -1185,7 +1185,7 @@
         "giro_30": 46,
         "giro_60": 9,
         "giro_90": 28,
-        "codigo_local": "04010799100",
+        "codigo_local": "0407100",
         "desc_local": "R07A100",
         "empresa":"LOJA 04",
         "setor":"Setor 02"
